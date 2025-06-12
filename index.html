@@ -16,7 +16,7 @@
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#09f">
 
-  <link rel="icon" type="image/jpg" href="/images/yo.jpg">
+  <link rel="icon" type="image/jpg" href="/SRC/images/yo.jpg">
 
   <style>
     body {
@@ -36,10 +36,18 @@
       <a href="#Proyectos">Proyectos</a> 
       <a href="#Habilidades">Habilidades</a> 
       <a href="#Contacto">Contactame</a>
+      <a href="#RRSS">Redes</a>
+      <a href="/SRC/DOCS/Matias_Polhwein_CV.pdf" download="Matias_Polhwein_CV.pdf">Descargar mi CV</a>
       <!-- enlaces internos -->
     </nav>
 
     <h2 id="Sobre_Mi">Sobre Mi</h2>
+                <image src="/SRC/images/yo.jpg"
+         title="mi fotografia para que conozcas mi apariencia" 
+         alt="aqui deberia aparecer una fotografia de la cara de matias polhwein" 
+         width="250"
+         eight="250"
+        ></image><br> 
     <p>
         Soy Matias estudie en Aiep tengo 20 años, interesado en
         desarrollo de software desde los 16 años. Soy obsesivo una vez
@@ -58,6 +66,7 @@
         para ampliarla en un futuro a un ERP y venderlo como SaaS a
         minimarkets en Chile.
     </p>
+
 
     <h2 id="Estudios">Estudios</h2>
     <p>Titulado en: Técnico de Nivel Superior en Programación y Análisis de Sistemas</p>
@@ -97,17 +106,23 @@
 	    <li>Proyecto de aprendizaje Ajax: Lista de Tareas <br>
             Lenguajes utilizados: HTML JS PHP <br>
             Librerias Utilizadas: JQurry[JS], bootstrap[CSS] <br>
-            Extras: XAMPP[sql, apache] <br>
+            Servidor Local: XAMPP[sql, apache] <br>
             Repo: <a href="https://github.com/matiasapl/TO-DO-AJAX" target="_blank" rel="noreferrer">TO-DO-AJAX GITHUB</a> <br>
             Curso: <a href="https://www.youtube.com/watch?v=GeCNShiLdpc&t=0s" target="_blank" rel="noreferrer">Curso de ajax Fazt</a> <br>
-        </li>
+        </li><br>
 
 	    <li>Proyecto personal: Portafolio <br>
             Lenguajes utilizados: HTML <br>
             Servidor Local: XAMPP[apache] <br>
-            Repo: <a href="https://github.com/matiasapl/TO-DO-AJAX" target="_blank" rel="noreferrer">Portafolio Matias</a> <br>
-        </li>
-	    <li>Proyecto 3: Descripción del proyecto 3.</li>
+            Repo: <a href="https://github.com/matiasapl/Portafolio" target="_blank" rel="noreferrer">Portafolio Matias</a> <br>
+        </li><br>
+	    <li>
+            Login Generico con Ajax: Modulo de login para integrar en proyectos de desarrollo personales<br>
+            Lenguajes utilizados: HTML, CSS, JS, PHP, MySQL <br>
+            Documentacion: Diagrama Casos de uso,Diagrama Requerimientos, Diagrama Entidad Relacion, Diagrama de Clases WireFrames de baja Fiabilidad [UML, Miro] <br>
+            Servidor Local: XAMPP[sql, apache] <br>
+            Repo: <a href="https://github.com/matiasapl/Login_Generico" target="_blank" rel="noreferrer">Login Generico</a> <br>
+        </li><br>
     </ul>
 
 
@@ -119,6 +134,59 @@
 
     </ul>
 
+    <h2 id="Contacto">Contactame</h2>
+    <fieldset>
+        <legend>Formulario de contacto</legend>
+    
+    <fieldset>
+        <legend>Informacion Personal</legend>
+    <form action="#" method="post">
+        <div >
+            <label>
+                nombre: <input type="name" placeholder="Nombre" required>
+           </label><br>
+           <label> 
+                 Email: <input type="email" placeholder="Tu Email" required>
+            </label><br>
+        </fieldset>
+        <fieldset>
+            <legend> Asunto y Mensaje</legend>
+            <label>porque me quieres contactar?:
+                <select name="Asunto" id="Asunto" required> 
+                <option value="1">Trabajo</option>
+                <option value="2">Duda</option>
+                <option value="3">Otro</option>
+                </option> 
+                </select>  
+            </label><br>
+            <label>Mensaje: <br>
+                <textarea name="Email" id="Contenido" placeholder="Contenido" required></textarea>
+            </label><br>
+
+        </fieldset>
+            <label>
+                Enviar Fomulario: <button type="submit">Enviar</button> 
+            </label>
+        </div>
+    </form>
+        </fieldset>
+    
+
+
+
+    <h2 id="Contacto">Medio de contacto</h2>
+    <ul>
+        <li>Email: polhwein.matias@gmail.com</li>
+        <li>Numero de Telefono: +56983894202</li>
+        <li>Whatsapp: +56983894202</li>
+    </ul>
+    <h2 id="RRSS">Redes Relevantes</h2>
+    <a href="https://github.com/matiasapl/" target="_blank" rel="noreferrer">GitHub</a> <br>
+    <a href="https://www.linkedin.com/in/matias-alexander-polhwein-lara-23465026b" target="_blank" rel="noreferrer">Linkedin</a> <br>
+    <ul>
+
+    </ul>
 
     </body> 
+
 </html>
