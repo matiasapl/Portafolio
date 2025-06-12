@@ -18,11 +18,7 @@
 
   <link rel="icon" type="image/jpg" href="/SRC/images/yo.jpg">
 
-  <style>
-    body {
-      background: rgba(135, 221, 255, 0.9)
-    }
-  </style>
+  <link rel="stylesheet" href="styless.css">
 
 </head>
 
@@ -30,75 +26,83 @@
         <h1>Portfolio de Matías Polhwein</h1>
         
     
-    <nav>
-      <a href="#Sobre_Mi">Sobre Mi</a>
-      <a href="#Estudios">Estudios</a>
-      <a href="#Proyectos">Proyectos</a> 
-      <a href="#Habilidades">Habilidades</a> 
-      <a href="#Contacto">Contactame</a>
-      <a href="#RRSS">Redes</a>
-      <a href="/SRC/DOCS/Matias_Polhwein_CV.pdf" download="Matias_Polhwein_CV.pdf">Descargar mi CV</a>
+    <nav class="Nav">
+      <a href="#Sobre_Mi" class="_Intern_Link">Sobre Mi</a>
+      <a href="#Estudios" class="_Intern_Link">Estudios</a>
+      <a href="#Proyectos" class="_Intern_Link">Proyectos</a> 
+      <a href="#Habilidades" class="_Intern_Link">Habilidades</a> 
+      <a href="#Contacto" class="_Intern_Link">Contactame</a>
+      <a href="#RRSS" class="_Intern_Link">Redes</a>
+      <a href="/SRC/DOCS/Matias_Polhwein_CV.pdf" download="Matias_Polhwein_CV.pdf" class="_download">Descargar mi CV</a>
       <!-- enlaces internos -->
     </nav>
 
-    <h2 id="Sobre_Mi">Sobre Mi</h2>
+    <section class="Section">
+        <div class="Sobre_Mi">
+            <h2 id="Sobre_Mi" class="Sobre_Mi-Titulo">Sobre Mi</h2>
                 <image src="/SRC/images/yo.jpg"
-         title="mi fotografia para que conozcas mi apariencia" 
-         alt="aqui deberia aparecer una fotografia de la cara de matias polhwein" 
-         width="250"
-         eight="250"
-        ></image><br> 
-    <p>
-        Soy Matias estudie en Aiep tengo 20 años, interesado en
-        desarrollo de software desde los 16 años. Soy obsesivo una vez
-        que mi objetivo es definido, gusto por enseñar a una persona a
-        la vez, creador de varias corporaciones en el videojuego Eve
-        online lo que me ha permitido aprender a crear y gestionar
-        equipos, estandarizar procesos, manejar servidores de discord.,
-        entender a las personas, gestionar el estrés y ansiedad,
-        entender la política aplicada a interacciones entre diferentes
-        organizaciones, negociación, etc. jugador de Eve online desde
-        2018 hasta 2025. En su momento también me interese en SEO
-        para YouTube y lo manejo bien hasta día de hoy, no me gusta
-        crear videos por lo que no le saco provecho, de niño aprendí a
-        crear videojuegos con unity y c# pero actualmente trabajo en mi
-        proyecto personal, una aplicación de gestión de inventarios web
-        para ampliarla en un futuro a un ERP y venderlo como SaaS a
-        minimarkets en Chile.
-    </p>
-
-
-    <h2 id="Estudios">Estudios</h2>
-    <p>Titulado en: Técnico de Nivel Superior en Programación y Análisis de Sistemas</p>
+                title="mi fotografia para que conozcas mi apariencia" 
+                alt="aqui deberia aparecer una fotografia de la cara de matias polhwein" 
+                width="250"
+                eight="250" class="Sobre_Mi-Imagen">
+                </image>
+                <br>
+                <p class="Sobre_Mi-Descripcion">
+                    Soy Matias estudie en Aiep tengo 20 años, interesado en
+                    desarrollo de software desde los 16 años. Soy obsesivo una vez
+                    que mi objetivo es definido, gusto por enseñar a una persona a
+                    la vez, creador de varias corporaciones en el videojuego Eve
+                    online lo que me ha permitido aprender a crear y gestionar
+                    equipos, estandarizar procesos, manejar servidores de discord.,
+                    entender a las personas, gestionar el estrés y ansiedad,
+                    entender la política aplicada a interacciones entre diferentes
+                    organizaciones, negociación, etc. jugador de Eve online desde
+                    2018 hasta 2025. En su momento también me interese en SEO
+                    para YouTube y lo manejo bien hasta día de hoy, no me gusta
+                    crear videos por lo que no le saco provecho, de niño aprendí a
+                    crear videojuegos con unity y c# pero actualmente trabajo en mi
+                    proyecto personal, una aplicación de gestión de inventarios web
+                    para ampliarla en un futuro a un ERP y venderlo como SaaS a
+                    minimarkets en Chile.
+                </p>
+        </div>
+        
+    <div class="Estudios">
+        <h2 id="Estudios">Estudios</h2>
+        <p class="Estudios-Titulo"><strong>Técnico de Nivel Superior en Programación y Análisis de Sistemas</strong></p>
     
     <p>
-    <h3>Educacion Superior</h3>
-    Institucion: Instituto Aiep<br> 
-    Ubicacion: San Fernando<br> 
-    Carrera: Técnico de Nivel Superior en Programación y Análisis de Sistemas<br> 
-    Fecha Inicio: dd/mm/aa<br> 
-    Fecha Fin: dd/mm/aa<br> 
+    <div class="Estudios-Educacion-Superior">
+        <h3>Educacion Superior</h3>
+        <p class="Estudios-Educacion-Superior-Extra">
+        Institucion: Instituto Aiep<br> 
+        Ubicacion: San Fernando<br> 
+        Carrera: Técnico de Nivel Superior en Programación y Análisis de Sistemas<br> 
+        Fecha Inicio: dd/mm/aa<br> 
+        Fecha Fin: dd/mm/aa<br> 
+        </p>
+    </div>
 
-    <h3>Educacion Media</h3>
-     
-    Institucion: Centro Educacional Paulo Freire<br> 
-    Ubicacion: San Fernando<br> 
-    Fecha Inicio: dd/mm/aa<br> 
-    Fecha Fin: dd/mm/aa<br> 
+    <div class="Estudios-Educacion-Media">
+        <h3>Educacion Media</h3>
+       <p class="Estudios-Educacion-Media-Extra">
+            Institucion: Centro Educacional Paulo Freire<br> 
+            Ubicacion: San Fernando<br> 
+            Fecha Inicio: dd/mm/aa<br> 
+            Fecha Fin: dd/mm/aa<br> 
+       </p> 
+    </div>
 
-    <h3>Educacion Basica</h3> 
-
-    Institucion: Colegio Olegario Lazo Baeza San Fernando<br>
-    Ubicacion: San Fernando<br> 
-    Fecha Inicio: dd/mm/aa<br> 
-    Fecha Fin: dd/mm/aa<br> 
-    </p>
-
-
-
-
-
-
+    <div class="Estudios-Educacion-Basica">
+        <h3>Educacion Basica</h3> 
+        <p class="Estudios-Educacion-Basica-Extra">
+            Institucion: Colegio Olegario Lazo Baeza San Fernando<br>
+            Ubicacion: San Fernando<br> 
+            Fecha Inicio: dd/mm/aa<br> 
+            Fecha Fin: dd/mm/aa<br> 
+        </p>
+    </div>
+    </div>
 
 
     <h2 id="Proyectos">Proyectos Destacados</h2>
@@ -107,21 +111,21 @@
             Lenguajes utilizados: HTML JS PHP <br>
             Librerias Utilizadas: JQurry[JS], bootstrap[CSS] <br>
             Servidor Local: XAMPP[sql, apache] <br>
-            Repo: <a href="https://github.com/matiasapl/TO-DO-AJAX" target="_blank" rel="noreferrer">TO-DO-AJAX GITHUB</a> <br>
-            Curso: <a href="https://www.youtube.com/watch?v=GeCNShiLdpc&t=0s" target="_blank" rel="noreferrer">Curso de ajax Fazt</a> <br>
+            Repo: <a href="https://github.com/matiasapl/TO-DO-AJAX" target="_blank" rel="noreferrer" class="_blank_Link">TO-DO-AJAX GITHUB</a> <br>
+            Curso: <a href="https://www.youtube.com/watch?v=GeCNShiLdpc&t=0s" target="_blank" rel="noreferrer" class="_blank_Link">Curso de ajax Fazt</a> <br>
         </li><br>
 
 	    <li>Proyecto personal: Portafolio <br>
             Lenguajes utilizados: HTML <br>
             Servidor Local: XAMPP[apache] <br>
-            Repo: <a href="https://github.com/matiasapl/Portafolio" target="_blank" rel="noreferrer">Portafolio Matias</a> <br>
+            Repo: <a href="https://github.com/matiasapl/Portafolio" target="_blank" rel="noreferrer" class="_blank_Link">Portafolio Matias</a> <br>
         </li><br>
 	    <li>
             Login Generico con Ajax: Modulo de login para integrar en proyectos de desarrollo personales<br>
             Lenguajes utilizados: HTML, CSS, JS, PHP, MySQL <br>
             Documentacion: Diagrama Casos de uso,Diagrama Requerimientos, Diagrama Entidad Relacion, Diagrama de Clases WireFrames de baja Fiabilidad [UML, Miro] <br>
             Servidor Local: XAMPP[sql, apache] <br>
-            Repo: <a href="https://github.com/matiasapl/Login_Generico" target="_blank" rel="noreferrer">Login Generico</a> <br>
+            Repo: <a href="https://github.com/matiasapl/Login_Generico" target="_blank" rel="noreferrer" class="_blank_Link">Login Generico</a> <br>
         </li><br>
     </ul>
 
@@ -134,6 +138,9 @@
 
     </ul>
 
+
+
+     
     <h2 id="Contacto">Contactame</h2>
     <fieldset>
         <legend>Formulario de contacto</legend>
@@ -143,7 +150,7 @@
     <form action="#" method="post">
         <div >
             <label>
-                nombre: <input type="name" placeholder="Nombre" required>
+                nombre: <input type="name" placeholder="Tu Nombre" required>
            </label><br>
            <label> 
                  Email: <input type="email" placeholder="Tu Email" required>
@@ -170,10 +177,9 @@
         </div>
     </form>
         </fieldset>
-    
+     </section>
 
-
-
+     <footer class="footer">
     <h2 id="Contacto">Medio de contacto</h2>
     <ul>
         <li>Email: polhwein.matias@gmail.com</li>
@@ -181,12 +187,11 @@
         <li>Whatsapp: +56983894202</li>
     </ul>
     <h2 id="RRSS">Redes Relevantes</h2>
-    <a href="https://github.com/matiasapl/" target="_blank" rel="noreferrer">GitHub</a> <br>
-    <a href="https://www.linkedin.com/in/matias-alexander-polhwein-lara-23465026b" target="_blank" rel="noreferrer">Linkedin</a> <br>
+    <a href="https://github.com/matiasapl/" target="_blank" rel="noreferrer" class="_blank_Link">GitHub</a> <br>
+    <a href="https://www.linkedin.com/in/matias-alexander-polhwein-lara-23465026b" target="_blank" rel="noreferrer" class="_blank_Link">Linkedin</a> <br>
     <ul>
 
     </ul>
-
+</footer>
     </body> 
-
 </html>

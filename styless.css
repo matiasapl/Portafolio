@@ -1,0 +1,71 @@
+    body {
+        background: gray; 
+    }
+    h1 {
+        color: black;
+    }
+    h2 {
+        color: black
+    }
+    p {
+        color: black;
+    }
+    ._blank_Link {
+        color: red; 
+    }
+    ._Intern_Link{
+        color: cyan;
+        background-color: darkgrey;
+        border: 3px;
+        
+    }
+    ._download{
+        color: chartreuse;
+    }
+
+    .Nav{
+        border-width: 3px;
+        border-style: solid;
+        color: black;
+        background: darkorange;
+    }
+    .Section {
+        border-width: 3px;
+        border-style: solid;
+        color: black;
+        background: darkblue;
+    }
+    .footer {
+        border-width: 3px;
+        border-style: solid;
+        color: black;
+        background: darkcyan;
+    }
+/* Seccion Sobre Mi */
+    .Sobre_Mi {
+        border-width: 3px;
+        border-style: solid;
+        color: black;
+        background: gray;
+
+    }
+
+    .Sobre_Mi-Titulo {
+        color: black;
+        text-align: center;
+    }
+
+    .Sobre_Mi-Imagen {
+        border-width: 3px;
+        border-style: solid;
+        color: black; 
+
+
+    }
+    .Sobre_Mi-Descripcion {
+        text-align: justify;
+        color: black;
+        border-width: 3px;
+        border-style: solid;
+
+    }
