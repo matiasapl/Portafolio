@@ -8,8 +8,9 @@ function Index({}: Props) {
   return (
     <>
       <div className="container container-fluid bg-secondary">
-        <Seccion texto={texto}>INICIO</Seccion>
+        <Seccion texto={texto}>Sobre Mi</Seccion>
         <BtnUrlBlank url="https://github.com/matiasapl">GitHub</BtnUrlBlank>
+        <BtnUrlBlank url="https://bit.ly/472J4lO">Ver CV</BtnUrlBlank>
         <BtnUrlBlank url="https://www.linkedin.com/in/matias-alexander-polhwein-lara-23465026b">
           LinkedIn
         </BtnUrlBlank>
