@@ -5,7 +5,7 @@ type Props = {};
 function Index({}: Props) {
   return (
     <>
-      <div className="bg-secondary">
+      <div className="container-fluid bg-secondary px-0 py-4">
         <Seccion texto="Mis Estudios">
           <Estudios
             titulo="Tecnico Profecional"

@@ -1,13 +1,15 @@
 type Props = {
-  children: string;
+  children: React.ReactNode;
   texto: string;
 };
 
 function Seccion({ children, texto }: Props) {
   return (
     <>
-      <h2>{children}</h2>
-      <p>{texto}</p>
+      <h2>{texto}</h2>
+      <section className="bg-dark text-light p-3 m-0">
+        <p>{children}</p>
+      </section>
     </>
   );
 }

@@ -15,13 +15,13 @@ function Certificacion({
 }: Props) {
   return (
     <>
-      <div className="container bg-dark text-start">
+      <article className="container-fluid bg-dark text-white text-start m0">
         <h1>{titulo}</h1>
         <strong>{certificacion}</strong>
         <p>{institucion}</p>
         <p>{fechaInicio}</p>
         <p>{fechaFin}</p>
-      </div>
+      </article>
     </>
   );
 }
