@@ -1,3 +1,6 @@
 body {
   margin-top: 65px;
 }
+.section {
+  scroll-margin-top: 70px; /* altura de tu navbar */
+}

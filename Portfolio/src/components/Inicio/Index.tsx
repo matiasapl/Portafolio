@@ -1,13 +1,18 @@
 import BtnUrlBlank from "./BtnUrlBlank";
 import Seccion from "./Seccion";
-type Props = {};
+type Props = {
+  id: string;
+};
 
-function Index({}: Props) {
+function Index({ id }: Props) {
   const texto =
-    "Mi portafolio profesional. Aquí encontrarás información sobre mis proyectos y habilidades. texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho textotexto mucho texto texto mucho texto texto mucho texto texto mucho texto  texto mucho texto";
+    "portafolio profesional de Matias Polhwein. Aquí encontrarás información sobre mis proyectos y habilidades.";
   return (
     <>
-      <div className="container-fluid bg-secondary text-dark p-0">
+      <div
+        className="container-fluid bg-secondary text-dark p-0 section"
+        id={id}
+      >
         <Seccion texto="Inicio">
           <p>{texto}</p>
           <BtnUrlBlank url="https://github.com/matiasapl">GitHub</BtnUrlBlank>

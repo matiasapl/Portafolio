@@ -1,11 +1,13 @@
 import Estudios from "./ModalCertificacion";
 import Seccion from "./Seccion";
-type Props = {};
+type Props = {
+  id: string;
+};
 
-function Index({}: Props) {
+function Index({ id }: Props) {
   return (
     <>
-      <div className="container-fluid bg-secondary px-0 py-4">
+      <div className="container-fluid bg-secondary px-0 py-4 section" id={id}>
         <Seccion texto="Mis Estudios">
           <Estudios
             titulo="Tecnico Profecional"

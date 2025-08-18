@@ -1,17 +1,25 @@
 import BtnUrlBlank from "./BtnUrlBlank";
 import Seccion from "./Seccion";
-type Props = {};
+type Props = {
+  id: string;
+};
 
-function Index({}: Props) {
+function Index({ id }: Props) {
   const texto =
-    "Mi portafolio profesional. Aquí encontrarás información sobre mis proyectos y habilidades. texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho texto texto mucho textotexto mucho texto texto mucho texto texto mucho texto texto mucho texto  texto mucho texto";
+    "Soy un desarrollador web principiante en constante aprendizaje. Me apasiona crear aplicaciones web y mejorar mis habilidades en programación. Actualmente, estoy enfocado en aprender tecnologías como React, TypeScript y Node.js. Mi objetivo es desarrollar proyectos interesantes y seguir creciendo profesionalmente en el campo del desarrollo web.";
+
   return (
     <>
-      <div className="container-fluid px-0 py-4 bg-secondary">
+      <div className="container-fluid px-0 py-4 bg-secondary section" id={id}>
         <Seccion texto={"Sobre Mi"}>
           {
             <div>
-              <p>{texto}</p>
+              {texto}
+              <br />
+              <br />
+              <p>numero de teléfono: +56 983894202</p>
+              <p>email: polhweinmatias@gmail.com</p>
+              <br />
               <BtnUrlBlank url="https://github.com/matiasapl">
                 GitHub
               </BtnUrlBlank>
