@@ -23,7 +23,9 @@ function Index({ id }: Props) {
               <BtnUrlBlank url="https://github.com/matiasapl">
                 GitHub
               </BtnUrlBlank>
-              <BtnUrlBlank url="https://bit.ly/4mvckqe">Ver CV</BtnUrlBlank>
+              <BtnUrlBlank url="https://drive.google.com/file/d/17KIoMA5zzdBDAdRO8uIQTrWg3NupMbGK/view">
+                Ver CV
+              </BtnUrlBlank>
               <BtnUrlBlank url="https://www.linkedin.com/in/matias-alexander-polhwein-lara-23465026b">
                 LinkedIn
               </BtnUrlBlank>

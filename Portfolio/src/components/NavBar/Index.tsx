@@ -45,7 +45,9 @@ function Index({}: Props) {
                 <BtnScroll GoTo="Sobre_MI">Sobre MI</BtnScroll>
               </li>
               <li className="nav-item">
-                <BtnVerCV verCV="https://bit.ly/4mvckqe">Ver CV</BtnVerCV>
+                <BtnVerCV verCV="https://drive.google.com/file/d/17KIoMA5zzdBDAdRO8uIQTrWg3NupMbGK/view">
+                  Ver CV
+                </BtnVerCV>
               </li>
             </ul>
           </div>
