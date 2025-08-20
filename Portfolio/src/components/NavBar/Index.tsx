@@ -39,7 +39,7 @@ function Index({}: Props) {
                 <BtnScroll GoTo="Estudios">Estudios</BtnScroll>
               </li>
               <li className="nav-item">
-                <BtnScroll GoTo="Skills">Skills</BtnScroll>
+                <BtnScroll GoTo="Skills">Habilidades</BtnScroll>
               </li>
               <li className="nav-item">
                 <BtnScroll GoTo="Sobre_MI">Sobre MI</BtnScroll>

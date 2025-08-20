@@ -24,7 +24,7 @@ function Index({ id }: Props) {
             RepositorioText="GitHub"
             VideoLink=""
             WebLink=""
-            RepositorioLink="https://github.com/matiasapl/Portafolio"
+            RepositorioLink=""
           />
 
           <Proyecto
