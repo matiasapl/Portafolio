@@ -12,7 +12,7 @@ function Index({ id }: Props) {
           <Tecnologia tecnologia="HTML" calidad="Dominado" />
           <Tecnologia tecnologia="CSS" calidad="Principiante" />
           <Tecnologia tecnologia="JS" calidad="Intermedio" />
-          <Tecnologia tecnologia="Ajax" calidad="Intermedio" />
+          <Tecnologia tecnologia="Bootstrap" calidad="Intermedio" />
           <Tecnologia tecnologia="PHP" calidad="Principiante" />
           <Tecnologia tecnologia="MySql" calidad="Intermedio" />
           <Tecnologia tecnologia="React" calidad="Principiante" />

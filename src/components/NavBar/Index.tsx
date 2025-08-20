@@ -20,7 +20,7 @@ function Index({}: Props) {
         <BtnScroll GoTo="Estudios">Estudios</BtnScroll>
         <BtnScroll GoTo="Skills">Skills</BtnScroll>
         <BtnScroll GoTo="Sobre_MI">Sobre MI</BtnScroll>
-        <BtnVerCV verCV="https://bit.ly/472J4lO">Ver CV</BtnVerCV>
+        <BtnVerCV verCV="https://bit.ly/4mvckqe">Ver CV</BtnVerCV>
       </nav>
     </>
   );
