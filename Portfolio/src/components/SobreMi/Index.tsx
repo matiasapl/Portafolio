@@ -6,7 +6,7 @@ type Props = {
 
 function Index({ id }: Props) {
   const texto =
-    "Soy un desarrollador web principiante en constante aprendizaje. Me apasiona crear aplicaciones web y mejorar mis habilidades en programación. Actualmente, estoy enfocado en aprender tecnologías como React, TypeScript y Node.js. Mi objetivo es desarrollar proyectos interesantes y seguir creciendo profesionalmente en el campo del desarrollo web.";
+    "Soy un desarrollador web principiante en constante aprendizaje. Me apasiona crear aplicaciones web y mejorar mis habilidades en programación. Actualmente, estoy enfocado en aprender tecnologías como React, TypeScript y PHP. Mi objetivo es desarrollar proyectos interesantes y seguir creciendo profesionalmente en el campo del desarrollo web.";
 
   return (
     <>
