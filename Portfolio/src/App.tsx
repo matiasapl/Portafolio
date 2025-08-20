@@ -6,6 +6,7 @@ import Estudios from "./components/Estudios/Index";
 import Proyectos from "./components/Proyectos/Index";
 import Skills from "./components/Skills/Index";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 function App() {
   return (
