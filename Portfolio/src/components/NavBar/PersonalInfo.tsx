@@ -11,7 +11,7 @@ function PersonalInfo({ Nombre, Profecion, Foto }: Props) {
         <img
           src={Foto}
           alt="Foto perfil"
-          className="rounded-circle me-2"
+          className=""
           style={{ width: "50px", height: "50px", objectFit: "cover" }}
         />
         <div>

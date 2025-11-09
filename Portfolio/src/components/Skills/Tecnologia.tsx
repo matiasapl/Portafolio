@@ -1,14 +1,16 @@
+import type { ReactNode } from "react";
+
 type Props = {
-  calidad: string;
-  tecnologia: string;
+  foto: ReactNode;
+  texto: string;
 };
 
-function Tecnologia({ tecnologia, calidad }: Props) {
+function Tecnologia({ foto, texto }: Props) {
   return (
     <>
-      <article className="container-fluid bg-dark text-white text-start m0">
-        <h1>{tecnologia}</h1>
-        <p>{calidad}</p>
+      <article className="text-white border-white box-border text-center border-2 p-2 w-24 flex flex-col items-center justify-center">
+        <strong>{foto}</strong>
+        <h1 className="block text-xs font-bold mt-1">{texto}</h1>
       </article>
     </>
   );

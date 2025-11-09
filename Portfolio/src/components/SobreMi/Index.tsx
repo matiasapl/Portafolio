@@ -1,34 +1,48 @@
-import BtnUrlBlank from "./BtnUrlBlank";
 import Seccion from "./Seccion";
 type Props = {
   id: string;
 };
 
 function Index({ id }: Props) {
-  const texto =
-    "Soy un desarrollador web principiante en constante aprendizaje. Me apasiona crear aplicaciones web y mejorar mis habilidades en programación. Actualmente, estoy enfocado en aprender tecnologías como React, TypeScript y PHP. Mi objetivo es desarrollar proyectos interesantes y seguir creciendo profesionalmente en el campo del desarrollo web.";
-
   return (
     <>
-      <div className="container-fluid px-0 py-4 bg-secondary section" id={id}>
+      <div className="p-1 scroll-mt-16 my-10" id={id}>
         <Seccion texto={"Sobre Mi"}>
           {
-            <div>
-              {texto}
+            <div className="text-white font-bold px-8 border-white box-border border-2 w-fit">
+              <strong>
+                Desarrollador Full Stack | Soluciones Web a Medida
+              </strong>
               <br />
               <br />
-              <p>numero de teléfono: +56 983894202</p>
-              <p>email: polhweinmatias@gmail.com</p>
+              <span>
+                Soy desarrollador Full Stack especializado en transformar ideas
+                en plataformas web funcionales y profesionales.
+              </span>
               <br />
-              <BtnUrlBlank url="https://github.com/matiasapl">
-                GitHub
-              </BtnUrlBlank>
-              <BtnUrlBlank url="https://drive.google.com/file/d/17KIoMA5zzdBDAdRO8uIQTrWg3NupMbGK/view">
-                Ver CV
-              </BtnUrlBlank>
-              <BtnUrlBlank url="https://www.linkedin.com/in/matias-alexander-polhwein-lara-23465026b">
-                LinkedIn
-              </BtnUrlBlank>
+              <br />
+              <ul>
+                Mi Propuesta de Valor:
+                <li>
+                  • Pila Confiable: Implementación robusta en LAMP (PHP/MySQL)
+                  para garantizar un backend estable y seguro.
+                </li>
+                <li>
+                  • Experiencia React: Diseño de interfaces de usuario (UI)
+                  dinámicas y optimizadas con React, enfocadas en la usabilidad
+                  y el rendimiento.
+                </li>
+                <li>
+                  • Enfoque en UX: Domino las técnicas para manejar datos
+                  complejos, asegurando que su plataforma se sienta rápida y
+                  profesional para el usuario final.
+                </li>
+              </ul>
+              <br />
+              <span>
+                El resultado: Plataformas web completas, optimizadas y listas
+                para impulsar su negocio.
+              </span>
             </div>
           }
         </Seccion>
