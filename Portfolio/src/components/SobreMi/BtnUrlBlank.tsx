@@ -1,18 +1,22 @@
+import type { ReactNode } from "react";
+
 type Props = {
   children: string;
   url: string;
+  icono: ReactNode;
 };
 
-function BtnUrlBlank({ children, url }: Props) {
+function BtnUrlBlank({ children, url, icono }: Props) {
   return (
     <button
       type="button"
-      className="btn btn-primary mx-3 text-nowrap"
+      className="m-4 p-2 bg-blue-950 text-white cursor-pointer flex items-center space-x-2 active:scale-95"
       onClick={() => {
         window.open(url, "_blank");
       }}
     >
-      {children}
+      <span>{icono}</span>
+      <strong>{children}</strong>
     </button>
   );
 }

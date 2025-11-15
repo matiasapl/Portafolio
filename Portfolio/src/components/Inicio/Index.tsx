@@ -38,7 +38,7 @@ function Index({ id }: Props) {
           </BtnUrlBlank>
 
           <BtnUrlBlank
-            url="https://matiasapl.blogspot.com/ "
+            url="https://matiasapl.wordpress.com"
             icono={<FaWordpress />}
           >
             Mi Blog
