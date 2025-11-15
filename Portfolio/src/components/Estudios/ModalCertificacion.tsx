@@ -15,7 +15,7 @@ function Certificacion({
 }: Props) {
   return (
     <>
-      <article className="container-fluid bg-dark text-white text-start m0">
+      <article className="text-white font-bold px-8 border-white box-border border-2 w-fit">
         <h1>{titulo}</h1>
         <strong>{certificacion}</strong>
         <p>{institucion}</p>

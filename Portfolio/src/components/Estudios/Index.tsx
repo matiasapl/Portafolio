@@ -7,7 +7,7 @@ type Props = {
 function Index({ id }: Props) {
   return (
     <>
-      <div className="container-fluid bg-secondary px-0 py-4 section" id={id}>
+      <div className="" id={id}>
         <Seccion texto="Mis Estudios">
           <Estudios
             titulo="Tecnico Profecional"
@@ -18,6 +18,7 @@ y Análisis de Sistemas"
             institucion="Institucion: Instituto Aiep San Fernando"
           />
         </Seccion>
+        ¿
       </div>
     </>
   );

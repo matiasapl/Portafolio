@@ -22,12 +22,14 @@ function Proyecto({
 }: Props) {
   return (
     <>
-      <article className="container-fluid bg-dark text-white text-start mb-3 py-4">
+      <article className="text-white font-bold p-2 m-2 border-white box-border border-2 w-fit">
         <h1>{titulo}</h1>
         <p>{descripcion}</p>
-        <BtnUrlBlank url={VideoLink}>{VideoText}</BtnUrlBlank>
-        <BtnUrlBlank url={WebLink}>{WebText}</BtnUrlBlank>
-        <BtnUrlBlank url={RepositorioLink}>{RepositorioText}</BtnUrlBlank>
+        <div className="flex gap-2 mt-4">
+          <BtnUrlBlank url={VideoLink}>{VideoText}</BtnUrlBlank>
+          <BtnUrlBlank url={WebLink}>{WebText}</BtnUrlBlank>
+          <BtnUrlBlank url={RepositorioLink}>{RepositorioText}</BtnUrlBlank>
+        </div>
       </article>
     </>
   );
