@@ -11,6 +11,7 @@ import {
   FaWindows,
   FaGitAlt,
   FaFolderOpen,
+  FaLaravel,
 } from "react-icons/fa6";
 import {
   SiTailwindcss,
@@ -53,6 +54,7 @@ function Index({ id }: Props) {
             <Tecnologia foto={<SiPhp />} texto="PHP" />
             <Tecnologia foto={<SiComposer />} texto="Composer" />
             <Tecnologia foto={<FaReact />} texto="MySQL" />
+            <Tecnologia foto={<FaLaravel />} texto="Laravel" />
           </Seccion>
         </div>
         <div className="text-white text-center border-2 w-fit mx-auto m-2">

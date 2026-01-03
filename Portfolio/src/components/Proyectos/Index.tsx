@@ -24,7 +24,7 @@ function Index({ id }: Props) {
             RepositorioText="GitHub"
             VideoLink=""
             WebLink=""
-            RepositorioLink=""
+            RepositorioLink="https://github.com/matiasapl/Portafolio"
           />
 
           <Proyecto
@@ -32,8 +32,7 @@ function Index({ id }: Props) {
             descripcion={
               <>
                 con este proyecto aprendi html css y js, hay un video sobre la
-                demo pero aun no hago una version bien hecha con mis
-                conocimientos actuales
+                demo, fue la inspiracion para mi proyecto personal actual.
                 <br />
                 FRONT: [HTML, CSS, Bootstrap, JS]
                 <br />
@@ -86,6 +85,31 @@ function Index({ id }: Props) {
             RepositorioText="GitHub"
             VideoLink=""
             WebLink=""
+            RepositorioLink=""
+          />
+
+          <Proyecto
+            titulo="Gestion de Inventarios"
+            descripcion={
+              <>
+                Web APP en desarrollo puedes visitarla y probarla pero la
+                <br />
+                base de datos sera borrada 1 a 2 veses por semana, aunque esta
+                <br />
+                en web aun no esta habilitado para uso en la practica se aceptan
+                <br />
+                sugerencias que ayuden al desarrollo del producto
+                <br />
+                hecho con [React, TypeScript, TailWind, vite, Laravel, PHP]
+                <br />
+                Repositorio Privado
+              </>
+            }
+            VideoText="Video"
+            WebText="Web"
+            RepositorioText="GitHub"
+            VideoLink=""
+            WebLink="https://greenyellow-mongoose-294732.hostingersite.com/"
             RepositorioLink=""
           />
         </Seccion>
