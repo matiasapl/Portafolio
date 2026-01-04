@@ -10,7 +10,7 @@ function Index({ id }: Props) {
       <div className="container-fluid bg-secondary px-0 py-4 section" id={id}>
         <Seccion texto="Mis Proyectos">
           <Proyecto
-            titulo="Portfolio"
+            titulo="Portfolio (Esta Web)"
             descripcion={
               <>
                 este portfolio fue creado para mostrar mis habilidades y
@@ -28,7 +28,7 @@ function Index({ id }: Props) {
           />
 
           <Proyecto
-            titulo="Web App Gestion de Inventarios"
+            titulo="Web App Gestion de Inventarios (Terminado)"
             descripcion={
               <>
                 con este proyecto aprendi html css y js, hay un video sobre la
@@ -51,32 +51,49 @@ function Index({ id }: Props) {
           />
 
           <Proyecto
-            titulo="Dashboard Web"
+            titulo="Dashboard Web (En Curso)"
             descripcion={
               <>
                 <br />
                 <br />
                 <span>un Dashboard web para la empresa donde trabajo</span>
                 <br />
-                <p>este es un proyecto que actualmente esta en desarrollo.</p>
+                <span>
+                  en donde trabajo se fabrican pallets y parrillas para la agro
+                  industria en chile
+                </span>
+                <br />
+                <p>
+                  el area de armado tiene que cumplir con un minimo de pallets
+                  armados y esto se ingresa en un excel, el Dashboard que
+                  construi permite ingresar el excel y mostrar los cuantos
+                  pallets hiso cada trabajador y ordenado por top filtrar por
+                  nombre y rango de fechas muestra pallets: (numero), nombre y
+                  foto, tambien tiene una seccion para mostrar un top de quien
+                  gana mas por produccion llamada Top Bonos todo esto ingresando
+                  el excel con un boton, se pretende mostrar toda esta
+                  informacion en una pantalla para generar competitividad y
+                  aumentar la productividad acutalizada de forma diaria, estoy
+                  esperando la instruccion para su despliegue{" "}
+                </p>
                 <br />
                 <span>
-                  es un dashboard que permite la visualizacion de datos de un
-                  exel como web app
+                  aplica una arquitectura cliente servidor, laravel para el api
+                  + react para el front
+                </span>
+                <br />
+                <span>
+                  es un proyecto dockerizado que sera desplegado de forma local
                 </span>
                 <br />
                 <br />
-                <span>permite filtrar por nombre, fecha inicio, fecha fin</span>
-                <br />
-                <br />
-                <span>aplica una arquitectura cliente servidor</span>
-                <br />
-                <br />
-                <span>es un proyecto dockerizado</span>
-                <br />
                 <p>
-                  probablemente haga un articulo en mi blog cuando este
-                  terminado
+                  El despliegue sera local pero espero las ordenes de mi jefe
+                  para esto porque no un monolito? r: cuando lo empeze no usaba
+                  laravel y no tenia claro donde se desplegaria el proyecto por
+                  lo que pense en escalabilidad actualmente considero un error
+                  el haber usado cliente servidor para este proyecto.
+                  probablemente termine acoplando en una siguiente version
                 </p>
               </>
             }
@@ -89,7 +106,7 @@ function Index({ id }: Props) {
           />
 
           <Proyecto
-            titulo="Gestion de Inventarios"
+            titulo="Gestion de Inventarios (En Curso)"
             descripcion={
               <>
                 Web APP en desarrollo puedes visitarla y probarla pero la
