@@ -126,7 +126,7 @@ function Index({ id }: Props) {
             WebText="Web"
             RepositorioText="GitHub"
             VideoLink=""
-            WebLink="https://greenyellow-mongoose-294732.hostingersite.com/"
+            WebLink="https://inventario.mapl.dev/"
             RepositorioLink=""
           />
         </Seccion>
