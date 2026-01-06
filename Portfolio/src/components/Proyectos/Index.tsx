@@ -7,8 +7,11 @@ type Props = {
 function Index({ id }: Props) {
   return (
     <>
-      <div className="container-fluid bg-secondary px-0 py-4 section" id={id}>
-        <Seccion texto="Mis Proyectos">
+      <div
+        className="container-fluid bg-secondary px-0 py-4 section p-1 scroll-mt-16 my-10"
+        id={id}
+      >
+        <Seccion texto="Proyectos">
           <Proyecto
             titulo="Portfolio (Esta Web)"
             descripcion={
@@ -51,73 +54,15 @@ function Index({ id }: Props) {
           />
 
           <Proyecto
-            titulo="Dashboard Web (En Curso)"
+            titulo="Gestion de Inventarios (Proyecto Principal)"
             descripcion={
               <>
+                es una web de gestion de inventarios en desarrollo continuo
                 <br />
+                se acepta sugerencias que ayuden al desarrollo del producto
                 <br />
-                <span>un Dashboard web para la empresa donde trabajo</span>
+                hecho con [Laravel + React con Inertia]
                 <br />
-                <span>
-                  en donde trabajo se fabrican pallets y parrillas para la agro
-                  industria en chile
-                </span>
-                <br />
-                <p>
-                  el area de armado tiene que cumplir con un minimo de pallets
-                  armados y esto se ingresa en un excel, el Dashboard que
-                  construi permite ingresar el excel y mostrar los cuantos
-                  pallets hiso cada trabajador y ordenado por top filtrar por
-                  nombre y rango de fechas muestra pallets: (numero), nombre y
-                  foto, tambien tiene una seccion para mostrar un top de quien
-                  gana mas por produccion llamada Top Bonos todo esto ingresando
-                  el excel con un boton, se pretende mostrar toda esta
-                  informacion en una pantalla para generar competitividad y
-                  aumentar la productividad acutalizada de forma diaria, estoy
-                  esperando la instruccion para su despliegue{" "}
-                </p>
-                <br />
-                <span>
-                  aplica una arquitectura cliente servidor, laravel para el api
-                  + react para el front
-                </span>
-                <br />
-                <span>
-                  es un proyecto dockerizado que sera desplegado de forma local
-                </span>
-                <br />
-                <br />
-                <p>
-                  El despliegue sera local pero espero las ordenes de mi jefe
-                  para esto porque no un monolito? r: cuando lo empeze no usaba
-                  laravel y no tenia claro donde se desplegaria el proyecto por
-                  lo que pense en escalabilidad actualmente considero un error
-                  el haber usado cliente servidor para este proyecto.
-                  probablemente termine acoplando en una siguiente version
-                </p>
-              </>
-            }
-            VideoText="Video"
-            WebText="Web"
-            RepositorioText="GitHub"
-            VideoLink=""
-            WebLink=""
-            RepositorioLink=""
-          />
-
-          <Proyecto
-            titulo="Gestion de Inventarios (En Curso)"
-            descripcion={
-              <>
-                Web APP en desarrollo puedes visitarla y probarla pero la
-                <br />
-                base de datos sera borrada 1 a 2 veses por semana, aunque esta
-                <br />
-                en web aun no esta habilitado para uso en la practica se aceptan
-                <br />
-                sugerencias que ayuden al desarrollo del producto
-                <br />
-                hecho con [React, TypeScript, TailWind, vite, Laravel, PHP]
                 <br />
                 Repositorio Privado
               </>

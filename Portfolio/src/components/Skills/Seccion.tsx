@@ -6,10 +6,10 @@ type Props = {
 function Seccion({ children, texto }: Props) {
   return (
     <>
-      <h2>{texto}</h2>
+      <h1>{texto}</h1>
       <section
-        id="estudios"
-        className="grid grid-cols-3 gap-4 p-4 justify-items-center "
+        className="grid grid-cols-3 gap-4 p-4 justify-items-center scroll-mt-16"
+        id="Estudios"
       >
         {children}
       </section>

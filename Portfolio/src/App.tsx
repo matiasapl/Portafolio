@@ -11,12 +11,26 @@ function App() {
     <div className="">
       {/* Aquí puedes agregar los componentes que desees renderizar */}
       <NavBar />
-      <Inicio id="Inicio" />
-      <Proyectos id="Proyectos" />
-      <Estudios id="Estudios" />
-      <Skills id="Habilidades" />
 
-      <SobreMi id="Sobre_MI" />
+      <div className="min-h-[300vh]">
+        <Inicio id="Inicio" />
+      </div>
+
+      <div className="min-h-[300vh]">
+        <Proyectos id="Proyectos" />
+      </div>
+
+      <div className="min-h-[300vh]">
+        <Estudios id="Estudios" />
+      </div>
+
+      <div className="min-h-[300vh]">
+        <Skills id="Habilidades" />
+      </div>
+
+      <div className="min-h-[300vh]">
+        <SobreMi id="Sobre_MI" />
+      </div>
     </div>
   );
 }
