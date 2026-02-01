@@ -36,13 +36,6 @@ function Index({ id }: Props) {
           >
             LinkedIn
           </BtnUrlBlank>
-
-          <BtnUrlBlank
-            url="https://matiasapl.wordpress.com"
-            icono={<FaWordpress />}
-          >
-            Mi Blog
-          </BtnUrlBlank>
         </div>
       </article>
     </section>

@@ -13,14 +13,8 @@ function Index({ id }: Props) {
           {
             <div className="text-white font-bold px-8 border-white box-border border-2 w-fit">
               <strong className="p-2 m-2 block">
-                Hola soy Matias. Si enserio quieres saber revisa Mi Blog
+                Vacio por ahora
               </strong>
-              <BtnUrlBlank
-                url="https://matiasapl.wordpress.com"
-                icono={<FaWordpress />}
-              >
-                Mi Blog
-              </BtnUrlBlank>
             </div>
           }
         </Seccion>
