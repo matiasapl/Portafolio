@@ -1,6 +1,4 @@
 import Seccion from "./Seccion";
-import BtnUrlBlank from "./BtnUrlBlank";
-import { FaWordpress } from "react-icons/fa6";
 type Props = {
   id: string;
 };

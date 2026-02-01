@@ -1,6 +1,6 @@
 import BtnUrlBlank from "./BtnUrlBlank";
 
-import { FaGithub, FaLinkedin, FaWordpress } from "react-icons/fa6";
+import { FaGithub, FaLinkedin } from "react-icons/fa6";
 
 type Props = {
   id: string;
