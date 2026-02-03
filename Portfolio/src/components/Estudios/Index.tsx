@@ -18,7 +18,6 @@ y Análisis de Sistemas"
             institucion="Institucion: Instituto Aiep San Fernando"
           />
         </Seccion>
-        ¿
       </div>
     </>
   );

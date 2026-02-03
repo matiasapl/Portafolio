@@ -37,7 +37,7 @@ function Index({ id }: Props) {
       >
         Habilidades
       </h1>
-      <div className="text-center border-2 mx-2 p-4 grid grid-cols-3 gap-8 w-fit">
+      <div className="text-center mx-2 p-4 grid grid-cols-3 gap-8 w-fit">
         <div className="border-fuchsia-500 text-center border-2 m-2">
           <Seccion texto="Front End">
             <Tecnologia foto={<FaHtml5 />} texto="HTML 5" />
