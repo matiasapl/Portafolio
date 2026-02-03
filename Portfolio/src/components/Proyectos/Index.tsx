@@ -16,6 +16,7 @@ function Index({ id }: Props) {
             titulo="Portfolio (Esta Web)"
             descripcion={
               <>
+                <br />
                 este portfolio fue creado para mostrar mis habilidades y
                 proyectos.
                 <br />

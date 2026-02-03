@@ -22,14 +22,20 @@ function Proyecto({
 }: Props) {
   return (
     <>
-      <article className="text-white font-bold gap-4 p-4 border-fuchsia-500 box-border border-2 w-[calc(50%-1rem)]">
-        <h1 className="text-transparent bg-clip-text bg-linear-to-t from-cyan-500 to-blue-500">
-          {titulo}
-        </h1>
-        <p className="text-transparent bg-clip-text bg-linear-to-t from-cyan-500 to-blue-500">
-          {descripcion}
-        </p>
-        <div className="flex gap-2 mt-4">
+      <article className="flex flex-col text-white font-bold gap-4 p-4 border-fuchsia-500 box-border border-2 w-[calc(50%-1rem)] min-h-[300px]">
+        {/* 1. Añadimos flex-col y una altura mínima (min-h) */}
+
+        <div>
+          <h1 className="text-transparent bg-clip-text bg-linear-to-t from-cyan-500 to-blue-500 flex text-2xl">
+            {titulo}
+          </h1>
+          <div className="text-transparent bg-clip-text bg-linear-to-t from-cyan-500 to-blue-500 font-normal">
+            {descripcion}
+          </div>
+        </div>
+
+        {/* 2. Usamos mt-auto para empujar hacia abajo y justify-end para la derecha */}
+        <div className="flex justify-end gap-2 mt-auto">
           <BtnUrlBlank url={VideoLink}>{VideoText}</BtnUrlBlank>
           <BtnUrlBlank url={WebLink}>{WebText}</BtnUrlBlank>
           <BtnUrlBlank url={RepositorioLink}>{RepositorioText}</BtnUrlBlank>
