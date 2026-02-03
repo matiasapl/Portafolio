@@ -15,29 +15,36 @@ function Index({ id }: Props) {
       >
         Inicio
       </h1>
-      <article className="flex flex-col items-center text-center p-8">
-        <img
-          src="/mi-foto.jpg"
-          alt="Foto de Matias Alexander Polhwein Lara"
-          className="size-16 rounded-full"
-        />
-        <span className="text-4xl bg-clip-text font-bold text-transparent mt-4 bg-linear-to-bl from-purple-500 to-pink-500">
-          Matias APL
-        </span>
-        <span className="text-xl bg-clip-text text-transparent bg-linear-to-bl from-purple-500 to-pink-500 mb-6">
-          Desarrollador Web Full Stack
-        </span>
-        <div className="flex space-x-4 ">
-          <BtnUrlBlank url="https://github.com/matiasapl" icono={<FaGithub />}>
-            GitHub
-          </BtnUrlBlank>
+      <article className="flex flex-row justify-center items-center text-center p-8">
+        <div>
+          <img
+            src="/mi-foto.png"
+            alt="Foto de Matias Alexander Polhwein Lara"
+            className="mix-blend-screen opacity-75"
+          />
+        </div>
+        <div className="flex flex-col items-center text-center p-8">
+          <span className="text-4xl bg-clip-text font-bold text-transparent mt-4 bg-linear-to-bl from-purple-500 to-pink-500">
+            Matias APL
+          </span>
+          <span className="text-xl bg-clip-text text-transparent bg-linear-to-bl from-purple-500 to-pink-500 mb-6">
+            Desarrollador Web Full Stack
+          </span>
+          <div className="flex space-x-4 ">
+            <BtnUrlBlank
+              url="https://github.com/matiasapl"
+              icono={<FaGithub />}
+            >
+              GitHub
+            </BtnUrlBlank>
 
-          <BtnUrlBlank
-            url="https://www.linkedin.com/in/matias-alexander-polhwein-lara-23465026b"
-            icono={<FaLinkedin />}
-          >
-            LinkedIn
-          </BtnUrlBlank>
+            <BtnUrlBlank
+              url="https://www.linkedin.com/in/matias-alexander-polhwein-lara-23465026b"
+              icono={<FaLinkedin />}
+            >
+              LinkedIn
+            </BtnUrlBlank>
+          </div>
         </div>
       </article>
     </section>
