@@ -35,7 +35,8 @@ function Index({ id }: Props) {
             descripcion={
               <>
                 <br />
-                Una web para gestion de inventarios actualmente no es practica pero sirve como demostracion
+                Una web para gestion de inventarios actualmente no es practica
+                pero sirve como demostracion
                 <br />
                 hecho con [Laravel + React con Inertia] Alojado en Hostinger
                 <br />

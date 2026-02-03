@@ -22,7 +22,7 @@ function Proyecto({
 }: Props) {
   return (
     <>
-      <article className="text-white font-bold p-2 m-2 border-white box-border border-2 w-fit">
+      <article className="text-white font-bold gap-4 p-4 border-fuchsia-500 box-border border-2 w-[calc(50%-1rem)]">
         <h1 className="text-transparent bg-clip-text bg-linear-to-t from-cyan-500 to-blue-500">
           {titulo}
         </h1>

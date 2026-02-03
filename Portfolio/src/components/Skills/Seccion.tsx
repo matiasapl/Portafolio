@@ -6,11 +6,11 @@ type Props = {
 function Seccion({ children, texto }: Props) {
   return (
     <>
-      <h1 className="text-transparent bg-clip-text bg-linear-to-t from-violet-500 to-fuchsia-500">
+      <h1 className="text-transparent bg-clip-text bg-linear-to-t from-violet-500 to-fuchsia-500 text-2xl font-bold text-center mb-6 scroll-mt-16 p-2">
         {texto}
       </h1>
       <section
-        className="grid grid-cols-3 gap-4 p-4 justify-items-center scroll-mt-16 "
+        className="text-transparent bg-clip-text bg-linear-to-t from-violet-500 to-fuchsia-500 font-bold flex flex-row flex-wrap justify-center gap-4 px-8 border-2 "
         id="Estudios"
       >
         {children}
