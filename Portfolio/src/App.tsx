@@ -8,8 +8,7 @@ import Proyectos from "./components/Proyectos/Index";
 
 function App() {
   return (
-    <div className="">
-      {/* Aquí puedes agregar los componentes que desees renderizar */}
+    <div className="font-mono">
       <NavBar />
 
       <div className="min-h-[300vh]">
