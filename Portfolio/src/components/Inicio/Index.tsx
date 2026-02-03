@@ -10,7 +10,7 @@ function Index({ id }: Props) {
   return (
     <section className="my-16">
       <h1
-        className="text-white text-4xl font-bold text-center mb-6 scroll-mt-16"
+        className="text-4xl font-bold text-center mb-6 scroll-mt-16 bg-clip-text text-transparent bg-linear-to-bl from-purple-500 to-pink-500"
         id={id}
       >
         Inicio
@@ -21,11 +21,13 @@ function Index({ id }: Props) {
           alt="Foto de Matias Alexander Polhwein Lara"
           className="size-16 rounded-full"
         />
-        <span className="text-4xl font-bold text-white mt-4">Matias APL</span>
-        <span className="text-xl text-white mb-6">
+        <span className="text-4xl bg-clip-text font-bold text-transparent mt-4 bg-linear-to-bl from-purple-500 to-pink-500">
+          Matias APL
+        </span>
+        <span className="text-xl bg-clip-text text-transparent bg-linear-to-bl from-purple-500 to-pink-500 mb-6">
           Desarrollador Web Full Stack
         </span>
-        <div className="flex space-x-4">
+        <div className="flex space-x-4 ">
           <BtnUrlBlank url="https://github.com/matiasapl" icono={<FaGithub />}>
             GitHub
           </BtnUrlBlank>

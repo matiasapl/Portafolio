@@ -23,8 +23,12 @@ function Proyecto({
   return (
     <>
       <article className="text-white font-bold p-2 m-2 border-white box-border border-2 w-fit">
-        <h1>{titulo}</h1>
-        <p>{descripcion}</p>
+        <h1 className="text-transparent bg-clip-text bg-linear-to-t from-cyan-500 to-blue-500">
+          {titulo}
+        </h1>
+        <p className="text-transparent bg-clip-text bg-linear-to-t from-cyan-500 to-blue-500">
+          {descripcion}
+        </p>
         <div className="flex gap-2 mt-4">
           <BtnUrlBlank url={VideoLink}>{VideoText}</BtnUrlBlank>
           <BtnUrlBlank url={WebLink}>{WebText}</BtnUrlBlank>

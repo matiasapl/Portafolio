@@ -32,7 +32,7 @@ function Index({ id }: Props) {
   return (
     <>
       <h1
-        className="text-white text-4xl font-bold text-start mb-6 scroll-mt-16 my-16 p-2"
+        className=" text-4xl font-bold text-start mb-6 scroll-mt-16 my-16 p-2 text-transparent bg-clip-text bg-linear-to-t from-violet-500 to-fuchsia-500"
         id={id}
       >
         Habilidades

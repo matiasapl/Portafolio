@@ -10,7 +10,9 @@ function Tecnologia({ foto, texto }: Props) {
     <>
       <article className="text-white border-white box-border text-center border-2 p-2 w-24 flex flex-col items-center justify-center">
         <strong>{foto}</strong>
-        <h1 className="block text-xs font-bold mt-1">{texto}</h1>
+        <h1 className="block text-xs font-bold mt-1 text-transparent bg-clip-text bg-linear-to-t from-cyan-500 to-blue-500">
+          {texto}
+        </h1>
       </article>
     </>
   );

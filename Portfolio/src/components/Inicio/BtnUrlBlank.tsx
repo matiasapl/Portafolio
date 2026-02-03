@@ -10,13 +10,15 @@ function BtnUrlBlank({ children, url, icono }: Props) {
   return (
     <button
       type="button"
-      className="m-4 p-2 bg-indigo-900 text-white cursor-pointer flex items-center space-x-2 active:scale-95"
+      className="m-4 p-2 bg-indigo-900 text-white cursor-pointer flex items-center space-x-2 active:scale-95 bg-linear-to-bl from-violet-500 to-fuchsia-500"
       onClick={() => {
         window.open(url, "_blank");
       }}
     >
       <span>{icono}</span>
-      <strong>{children}</strong>
+      <strong className="text-white">
+        {children}
+      </strong>
     </button>
   );
 }
