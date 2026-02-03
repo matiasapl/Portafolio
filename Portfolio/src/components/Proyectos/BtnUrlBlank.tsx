@@ -29,7 +29,7 @@ function BtnUrlBlank({ children, url }: Props) {
         // Estilos cuando HABILITADO
         ${
           !isDisabled
-            ? "bg-blue-950 cursor-pointer active:scale-95 hover:bg-blue-800"
+            ? "bg-indigo-900 cursor-pointer active:scale-95 hover:bg-indigo-900"
             : // Estilos cuando DESHABILITADO
               "bg-gray-500 cursor-not-allowed"
         }
