@@ -20,30 +20,25 @@ useEffect(() => {
 }, []);
 
   return (
-    /* relative y z-10 aseguran que el contenido esté sobre el fondo neón */
     <div className="font-mono relative z-10 text-white">
       <NavBar />
-
-      {/* He mantenido tus min-h-[300vh], pero recuerda que esto hace 
-          que el scroll sea extremadamente largo. 
-      */}
-      <div className="min-h-[300vh] flex flex-col justify-center">
+      <div className=" flex flex-col justify-center mb-80 scroll-mt-10">
         <Inicio id="Inicio" />
       </div>
 
-      <div className="min-h-[300vh] flex flex-col justify-center">
+      <div className="lex flex-col justify-center mb-80 scroll-mt-10">
         <Proyectos id="Proyectos" />
       </div>
 
-      <div className="min-h-[300vh] flex flex-col justify-center">
+      <div className="flex flex-col justify-center mb-80 scroll-mt-10">
         <Estudios id="Estudios" />
       </div>
 
-      <div className="min-h-[300vh] flex flex-col justify-center">
+      <div className="min-h-[300vh] flex flex-col justify-center mb-80 scroll-mt-10">
         <Skills id="Habilidades" />
       </div>
 
-      <div className="min-h-[300vh] flex flex-col justify-center">
+      <div className="min-h-[300vh] flex flex-col justify-center mb-80 scroll-mt-10">
         <SobreMi id="Sobre_MI" />
       </div>
     </div>
