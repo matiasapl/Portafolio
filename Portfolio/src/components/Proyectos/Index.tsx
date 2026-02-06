@@ -43,12 +43,39 @@ function Index({ id }: Props) {
                 <br />
               </>
             }
-            VideoText="Video"
+            VideoText="Imagenes del proyecto"
             WebText="Web"
             RepositorioText="GitHub"
-            VideoLink=""
+            VideoLink="https://drive.google.com/drive/folders/1TszLGK-xCxbZ73TxGU_z2nY5gUpTxB-3?usp=drive_link"
             WebLink="https://inventario.mapl.dev/"
             RepositorioLink="https://github.com/matiasapl/INVENTARIO"
+          />
+
+          <Proyecto
+            titulo="Top/Dashboard de Armadores de Pallets"
+            descripcion={
+              <>
+                <br />
+                Una web app que permite visualizar las cantidades de pallets
+                producidos por cada armador alimentado de un excel de
+                producciones en la empresa donde trabajo permite filtrar
+                facilmente por fecha y nombre para llevar una trazabilidad de
+                armado, cantidades, y saber quienes cumplen quienes no y permite
+                cargarse importando directamente el excel usado para registrar
+                producciones
+                <br />
+                <br />
+                hecho con [Laravel + React con Inertia, BBDD MYSQL, Docker
+                Compose, Bash Scripts]
+                <br />
+              </>
+            }
+            VideoText="N/A"
+            WebText="N/A"
+            RepositorioText="N/A"
+            VideoLink=""
+            WebLink=""
+            RepositorioLink=""
           />
         </Seccion>
       </div>
