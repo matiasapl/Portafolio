@@ -17,10 +17,12 @@ function Index({ id }: Props) {
             descripcion={
               <>
                 <br />
-                este portfolio fue creado para mostrar mis habilidades y
-                proyectos.
+                La web en la que estas: creada para ofrecer mis servicios y
+                darme a conocer como desarrolador
                 <br />
-                hecho con [React, TypeScript, TailWind, vite]
+                <br />
+                hecho con [React, TypeScript, TailWind, vite] Alojado en
+                Hostinger
               </>
             }
             VideoText="Video"
@@ -32,12 +34,14 @@ function Index({ id }: Props) {
           />
 
           <Proyecto
-            titulo="Gestion de Inventarios con Laravel"
+            titulo="Gestion de Inventarios con Laravel (Personal)"
             descripcion={
               <>
                 <br />
-                Una web para gestion de inventarios actualmente no es practica
-                pero sirve como demostracion
+                Proyecto personal en desarrollo continuo proximamente un
+                producto comercial si deseas probarlo eres libre de hacerlo
+                resive actualizaciones periodicas
+                <br />
                 <br />
                 hecho con [Laravel + React con Inertia] Alojado en Hostinger
                 <br />
@@ -52,7 +56,7 @@ function Index({ id }: Props) {
           />
 
           <Proyecto
-            titulo="Top/Dashboard de Armadores de Pallets"
+            titulo="Top/Dashboard de Armadores de Pallets (Trabajo)"
             descripcion={
               <>
                 <br />

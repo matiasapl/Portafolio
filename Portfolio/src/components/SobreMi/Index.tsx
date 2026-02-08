@@ -13,13 +13,12 @@ function Index({ id }: Props) {
               <strong className="py-5 my-4 blocktext-transparent bg-clip-text bg-linear-to-t from-cyan-500 to-blue-500 solid">
                 Hola soy Matias, Desarrollador Web Full Stack.
                 <br />
-                Trabajar conmigo es ameno, me involucro mas que la mayoria, me
-                gusta estar por encima de la media, no espero el esfuerzo que yo
-                doy de nadie, estare para ti cuando me nesesites, eso es lo
-                bueno de trabajar conmigo, lo malo es que no soy uno mas, no
-                puedo hacer solo lo que me corresponde, estoy al 100% o no
-                estoy, no solo hago mi trabajo, no estoy a medias: estoy o no
-                estoy.
+                <br />
+                Soy tecnico informatico en Embalajes Troya Spa. eh desarrollado
+                2 proyectos de software, me dedico principalmente a lo
+                relacionado con software y el apartado tecnico, mi objetivo es
+                crear una empresa si nesesitas una web escribeme quiza podamos
+                llegar a un acuerdo beneficioso para ambas partes.
               </strong>
               <br />
               <br />
@@ -30,21 +29,14 @@ function Index({ id }: Props) {
                 un mensaje coordinamos.
                 <br />
                 <br />
-                <br />
-                Busco Trabajo? No activamente pero podemos hablarlo y ver que
-                sale si te interesa mi perfil.
-                <br />
-                <br />
-                Buscas un Freelancer? Serias mi primer cliente y solo en
-                aplicaciones web pero estoy habieto a oportunidades.
+                Buscas un Freelancer? Espero tu mensaje, Feliz de hacer
+                negocios.
                 <br />
                 <br />
-                Cual es mi trabajo soñado?: Dame la oportunidad de trabajar con
-                otros desarrolladores en proyectos con impacto real y
-                probablemente lo tomare, quiero tener impacto y cambiar el mundo.
+                Mis Objetivos de 2026?: Realizar 5 proyectos para clientes de
+                forma independiente, crear una empresa.
                 <br />
               </span>
-              <br />
               <br />
               <span className="py-5 my-4 blocktext-transparent bg-clip-text bg-linear-to-t from-cyan-500 to-blue-500 solid">
                 WhatsApp: +569 83894202
