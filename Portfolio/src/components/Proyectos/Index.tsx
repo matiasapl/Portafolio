@@ -13,16 +13,14 @@ function Index({ id }: Props) {
       >
         <Seccion texto="Proyectos">
           <Proyecto
-            titulo="Portfolio (Esta Web)"
+            titulo="Portfolio y Consultoría Web"
             descripcion={
               <>
                 <br />
-                La web en la que estas: creada para ofrecer mis servicios y
-                darme a conocer como desarrolador
-                <br />
-                <br />
-                hecho con [React, TypeScript, TailWind, vite] Alojado en
-                Hostinger
+                Esta web es un ejemplo de lo que puedo construir para ti: una
+                plataforma optimizada, profesional y lista para convertir
+                visitas en mensajes. Ayudo a profesionales a digitalizar sus
+                servicios.
               </>
             }
             VideoText="Video"
@@ -34,52 +32,23 @@ function Index({ id }: Props) {
           />
 
           <Proyecto
-            titulo="Gestion de Inventarios con Laravel (Personal)"
+            titulo="Software de Gestión de Stock (SaaS)"
             descripcion={
               <>
                 <br />
-                Proyecto personal en desarrollo continuo proximamente un
-                producto comercial si deseas probarlo eres libre de hacerlo
-                resive actualizaciones periodicas
-                <br />
-                <br />
-                hecho con [Laravel + React con Inertia] Alojado en Hostinger
+                Un sistema profesional diseñado para optimizar la logística de
+                tu comercio. Actualmente en fase beta, disponible para
+                profesionales que busquen digitalizar su control de almacén con
+                una herramienta rápida y segura.
                 <br />
               </>
             }
             VideoText="Imagenes del proyecto"
-            WebText="Web"
+            WebText="Probar Demo"
             RepositorioText="GitHub"
             VideoLink="https://drive.google.com/drive/folders/1TszLGK-xCxbZ73TxGU_z2nY5gUpTxB-3?usp=drive_link"
             WebLink="https://inventario.mapl.dev/"
             RepositorioLink="https://github.com/matiasapl/INVENTARIO"
-          />
-
-          <Proyecto
-            titulo="Top/Dashboard de Armadores de Pallets (Trabajo)"
-            descripcion={
-              <>
-                <br />
-                Una web app que permite visualizar las cantidades de pallets
-                producidos por cada armador alimentado de un excel de
-                producciones en la empresa donde trabajo permite filtrar
-                facilmente por fecha y nombre para llevar una trazabilidad de
-                armado, cantidades, y saber quienes cumplen quienes no y permite
-                cargarse importando directamente el excel usado para registrar
-                producciones
-                <br />
-                <br />
-                hecho con [Laravel + React con Inertia, BBDD MYSQL, Docker
-                Compose, Bash Scripts]
-                <br />
-              </>
-            }
-            VideoText="N/A"
-            WebText="N/A"
-            RepositorioText="N/A"
-            VideoLink=""
-            WebLink=""
-            RepositorioLink=""
           />
         </Seccion>
       </div>

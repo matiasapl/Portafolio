@@ -11,30 +11,26 @@ function Index({ id }: Props) {
           {
             <div className="font-bold px-8 border-fuchsia-500 box-border border-2 text-transparent bg-clip-text bg-linear-to-t from-violet-500 to-fuchsia-500">
               <strong className="py-5 my-4 blocktext-transparent bg-clip-text bg-linear-to-t from-cyan-500 to-blue-500 solid">
-                Hola soy Matias, Desarrollador Web Full Stack.
+                ¿Buscas un Desarrollador que entienda tu negocio?
                 <br />
                 <br />
-                Soy tecnico informatico en Embalajes Troya Spa. eh desarrollado
-                2 proyectos de software, me dedico principalmente a lo
-                relacionado con software y el apartado tecnico, mi objetivo es
-                crear una empresa si nesesitas una web escribeme quiza podamos
-                llegar a un acuerdo beneficioso para ambas partes.
+                Soy Matías, desarrollador Full Stack con experiencia real en
+                entornos industriales. Actualmente gestiono el apartado técnico
+                y de software en Embalajes Troya SpA, aportando soluciones que
+                optimizan procesos.
               </strong>
               <br />
               <br />
               <span className="py-5 my-4 blocktext-transparent bg-clip-text bg-linear-to-t from-cyan-500 to-blue-500 solid">
-                Tienes una propuesta para mi? Enviame un WhatsApp (no me llames)
-                si estoy trabajando y no espero tu llamada y ademas no te tengo
-                entre mis contactos probablemente no te contestare si me envias
-                un mensaje coordinamos.
+                Estoy disponible para nuevos proyectos independientes. Mi meta
+                es clara: entregar software de calidad que genere beneficios
+                mutuos. Escríbeme al WhatsApp y busquemos la mejor solución para
+                tu empresa.
                 <br />
                 <br />
-                Buscas un Freelancer? Espero tu mensaje, Feliz de hacer
-                negocios.
+                Nota: Por favor, solo mensajes de texto o audio para coordinar
+                una llamada previa.
                 <br />
-                <br />
-                Mis Objetivos de 2026?: Realizar 5 proyectos para clientes de
-                forma independiente, crear una empresa.
                 <br />
               </span>
               <br />
