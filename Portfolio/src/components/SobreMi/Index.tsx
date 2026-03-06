@@ -39,7 +39,7 @@ function Index({ id }: Props) {
               </span>
               <br />
               <span className="py-5 my-4 blocktext-transparent bg-clip-text bg-linear-to-t from-cyan-500 to-blue-500 solid">
-                Email: polhweinmatias@gmail.com
+                Email: contacto@mapl.dev
               </span>
             </div>
           }
