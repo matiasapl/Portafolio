@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+#Archivos Locales que estorban en GitHub
+package-lock.json
