@@ -25,9 +25,7 @@ function Proyecto({
   return (
     <article className="flex flex-col text-white font-bold gap-4 p-4 border-yellow-400 border-2 w-[calc(50%-1rem)] min-h-[300px]">
       <div>
-        <h1 className="text-indigo-600 text-shadow-amber-200 text-shadow-2xs">
-          {titulo}
-        </h1>
+        <h1 className="text-indigo-600">{titulo}</h1>
         <div className="text-indigo-600">{descripcion}</div>
       </div>
 
