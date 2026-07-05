@@ -27,9 +27,13 @@ function Index({ id }: Props) {
           <span className="text-4xl font-light mt-4 text-indigo-600 text-shadow-pink-200 text-shadow-lg">
             Matias APL
           </span>
-          <span className="text-2xl mb-6 text-indigo-600 text-shadow-pink-200 text-shadow-md">
-            Desarrollador Web Full Stack
-          </span>
+          <p className="text-2xl mb-6 text-indigo-600 text-shadow-pink-200 text-shadow-md">
+            Desarrollador Web Full Stack <br /> Laravel · React · PHP · MySQL
+            <br />
+            <br />
+            Desarrollo aplicaciones web para automatizar procesos, optimizar
+            operaciones y resolver problemas reales mediante software.
+          </p>
           <div className="flex space-x-4 ">
             <BtnUrlBlank
               url="https://github.com/matiasapl"

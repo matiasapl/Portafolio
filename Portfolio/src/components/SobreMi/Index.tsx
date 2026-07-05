@@ -11,36 +11,37 @@ function Index({ id }: Props) {
           {
             <div className="font-light px-8 border-yellow-400 box-border border-2 text-indigo-600 text-shadow-pink-200">
               <strong className="py-5 my-4 solid text-indigo-600">
-                ¿Buscas un Desarrollador que entienda tu negocio?
+                Desarrollador Web Full Stack con enfoque en Backend
                 <br />
                 <br />
-                Soy Matías, desarrollador Full Stack con experiencia real en
-                entornos industriales. Actualmente gestiono el apartado técnico
-                y de software en Embalajes Troya SpA, aportando soluciones que
-                optimizan procesos.
+                Soy Matías Polhwein, desarrollador web con experiencia
+                profesional desarrollando aplicaciones internas para optimizar
+                procesos en entornos industriales.
+                <br />
+                <br />
+                Actualmente trabajo como Técnico Informático / Desarrollador
+                Interno en Embalajes Troya SpA, donde desarrollo herramientas
+                utilizando Laravel, React y MySQL para automatizar tareas,
+                gestionar información y facilitar la toma de decisiones mediante
+                dashboards y aplicaciones web.
+                <br />
+                <br />
+                Disfruto construir software que resuelva problemas reales. Me
+                interesa especialmente el desarrollo backend, la arquitectura de
+                aplicaciones y la automatización de procesos, aunque también me
+                desenvuelvo cómodamente en el desarrollo frontend cuando el
+                proyecto lo requiere.
+                <br />
+                <br />
+                Actualmente busco incorporarme a un equipo de ingeniería de
+                software donde pueda seguir creciendo profesionalmente, aprender
+                de otros desarrolladores y aportar con soluciones de calidad.
+                <br />
+                <br />
+                Si quieres conocer mi trabajo, puedes revisar mis proyectos en
+                este portafolio, explorar mi GitHub o ponerte en contacto
+                conmigo.
               </strong>
-              <br />
-              <br />
-              <span className="py-5 my-4 blocktext-transparent bg-clip-text bg-linear-to-t from-cyan-500 to-blue-500 solid">
-                Estoy disponible para nuevos proyectos independientes. Mi meta
-                es clara: entregar software de calidad que genere beneficios
-                mutuos. Escríbeme al WhatsApp y busquemos la mejor solución para
-                tu empresa.
-                <br />
-                <br />
-                Nota: Por favor, solo mensajes de texto o audio para coordinar
-                una llamada previa.
-                <br />
-                <br />
-              </span>
-              <br />
-              <span className="py-5 my-4 blocktext-transparent bg-clip-text bg-linear-to-t from-cyan-500 to-blue-500 solid">
-                WhatsApp: +569 83894202
-              </span>
-              <br />
-              <span className="py-5 my-4 blocktext-transparent bg-clip-text bg-linear-to-t from-cyan-500 to-blue-500 solid">
-                Email: contacto@mapl.dev
-              </span>
             </div>
           }
         </Seccion>
