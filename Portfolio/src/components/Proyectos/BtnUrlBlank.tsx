@@ -29,13 +29,15 @@ function BtnUrlBlank({ children, url }: Props) {
         // Estilos cuando HABILITADO
         ${
           !isDisabled
-            ? "bg-linear-to-t cursor-pointer active:scale-95 hover:bg-linear-to-bl from-violet-500 to-fuchsia-500"
+            ? "text-indigo-600 cursor-pointer flex items-center space-x-2 active:scale-95 outline outline-amber-200"
             : // Estilos cuando DESHABILITADO
               "bg-gray-500 cursor-not-allowed"
         }
       `}
     >
-      {children}
+      <strong className="text-indigo-600 text-shadow-amber-200 text-shadow-2xs">
+        {children}
+      </strong>
     </button>
   );
 }
