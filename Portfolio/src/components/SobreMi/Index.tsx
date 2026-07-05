@@ -9,8 +9,8 @@ function Index({ id }: Props) {
       <div className="p-1 scroll-mt-16 my-10" id={id}>
         <Seccion texto={"Sobre Mi"}>
           {
-            <div className="font-bold px-8 border-fuchsia-500 box-border border-2 text-transparent bg-clip-text bg-linear-to-t from-violet-500 to-fuchsia-500">
-              <strong className="py-5 my-4 blocktext-transparent bg-clip-text bg-linear-to-t from-cyan-500 to-blue-500 solid">
+            <div className="font-light px-8 border-yellow-400 box-border border-2 text-indigo-600 text-shadow-pink-200">
+              <strong className="py-5 my-4 solid text-indigo-600">
                 ¿Buscas un Desarrollador que entienda tu negocio?
                 <br />
                 <br />

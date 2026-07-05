@@ -15,22 +15,16 @@ function Certificacion({
 }: Props) {
   return (
     <>
-      <article className="font-bold px-8 border-fuchsia-500 box-border border-2 w-fit">
-        <h1 className="text-transparent bg-clip-text bg-linear-to-t from-cyan-500 to-blue-500">
+      <article className="font-bold px-8 border-yellow-400 box-border border-2 w-fit">
+        <h1 className="text-2xl mb-6 text-indigo-600 text-shadow-pink-200 text-shadow-md">
           {titulo}
         </h1>
-        <strong className="text-transparent bg-clip-text bg-linear-to-t from-cyan-500 to-blue-500">
+        <strong className="text-xl mb-6 text-indigo-600">
           {certificacion}
         </strong>
-        <p className="text-transparent bg-clip-text bg-linear-to-t from-cyan-500 to-blue-500">
-          {institucion}
-        </p>
-        <p className="text-transparent bg-clip-text bg-linear-to-t from-cyan-500 to-blue-500">
-          {fechaInicio}
-        </p>
-        <p className="text-transparent bg-clip-text bg-linear-to-t from-cyan-500 to-blue-500">
-          {fechaFin}
-        </p>
+        <p className="text-xl mb-6 text-indigo-600">{institucion}</p>
+        <p className="text-xl mb-6 text-indigo-600">{fechaInicio}</p>
+        <p className="text-xl mb-6 text-indigo-600">{fechaFin}</p>
       </article>
     </>
   );
