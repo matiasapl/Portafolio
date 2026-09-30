@@ -23,7 +23,7 @@ function Proyecto({
   RepositorioText,
 }: Props) {
   return (
-    <article className="flex flex-col text-white font-bold gap-4 p-4 border-yellow-400 border-2 w-[calc(50%-1rem)] min-h-[300px]">
+    <article className="flex flex-col text-white font-bold gap-4 p-4 border-stone-400 border-2 w-[calc(50%-1rem)] min-h-[300px]">
       <div>
         <h1 className="text-indigo-600">{titulo}</h1>
         <div className="text-indigo-600">{descripcion}</div>

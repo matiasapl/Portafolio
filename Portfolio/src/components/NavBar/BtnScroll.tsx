@@ -44,7 +44,7 @@ function BtnVerCV({ children, GoTo }: Props) {
   return (
     <button
       type="button"
-      className="m-4 p-2 text-indigo-600 cursor-pointer flex items-center space-x-2 active:scale-95 outline outline-amber-200 text-shadow-amber-200 text-shadow-2xs"
+      className="m-4 p-2 text-indigo-600 cursor-pointer flex items-center space-x-2 active:scale-95 outline outline-amber-200 text-shadow-amber-200 "
       onClick={scrollToSection}
     >
       <strong>{children}</strong>

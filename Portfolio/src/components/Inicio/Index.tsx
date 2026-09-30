@@ -1,7 +1,3 @@
-import BtnUrlBlank from "./BtnUrlBlank";
-
-import { FaGithub, FaLinkedin } from "react-icons/fa6";
-
 type Props = {
   id: string;
 };
@@ -24,31 +20,33 @@ function Index({ id }: Props) {
           />
         </div>
         <div className="flex flex-col items-center text-center p-8">
-          <span className="text-4xl font-light mt-4 text-indigo-600 text-shadow-pink-200 text-shadow-lg">
+          <span className="text-4xl font-light mt-4 text-indigo-600 text-shadow-pink-200 text-shadow-xs">
             Matias APL
           </span>
-          <p className="text-2xl mb-6 text-indigo-600 text-shadow-pink-200 text-shadow-md">
-            Desarrollador Web Full Stack <br /> Laravel · React · PHP · MySQL
-            <br />
-            <br />
-            Desarrollo aplicaciones web para automatizar procesos, optimizar
-            operaciones y resolver problemas reales mediante software.
-          </p>
-          <div className="flex space-x-4 ">
-            <BtnUrlBlank
-              url="https://github.com/matiasapl"
-              icono={<FaGithub />}
-            >
-              GitHub
-            </BtnUrlBlank>
+          <p className="text-2xl mb-6 text-indigo-600 text-shadow-pink-200 text-shadow-xs">
+            Desarrollador Web Full Stack con enfoque en Backend <br /> Laravel · React · PHP · MySQL · Docker · TailwindCSS · Git · GitHub <br /> <br />
 
-            <BtnUrlBlank
-              url="https://www.linkedin.com/in/matias-alexander-polhwein-lara-23465026b"
-              icono={<FaLinkedin />}
-            >
-              LinkedIn
-            </BtnUrlBlank>
-          </div>
+            <p className="text-justify">
+            Soy Matías Alexander Polhwein Lara, <br />
+            desarrollador web con experiencia profesional desarrollando aplicaciones internas <br />
+            para optimizar procesos en entornos industriales.<br />
+            <br />
+            Trabaje como Técnico Informático / Desarrollador Interno en Embalajes Troya SpA, <br />
+            donde desarrolle herramientas utilizando Laravel, React, MySQL, Docker, N8N, Etc. <br />
+            para automatizar tareas, gestionar información y facilitar la toma de decisiones mediante dashboards y aplicaciones web. <br />
+            <br />
+            Disfruto construir software que resuelva problemas reales. <br />
+            Me interesa especialmente el desarrollo backend, <br />
+            la arquitectura de aplicaciones y la automatización de procesos, <br />
+            aunque también me desenvuelvo cómodamente en el desarrollo frontend cuando el proyecto lo requiere.<br />
+            <br />
+            Actualmente busco incorporarme a un equipo de ingeniería de software donde pueda seguir creciendo profesionalmente, <br />
+            aprender de otros desarrolladores y aportar con soluciones de calidad.<br />
+            <br />
+            Si quieres conocer mi trabajo, puedes revisar mis proyectos en este portafolio, <br />
+            explorar mi GitHub o ponerte en contacto conmigo. <br />
+            </p>
+          </p>
         </div>
       </article>
     </section>

@@ -8,9 +8,9 @@ type Props = {
 function Tecnologia({ foto, texto }: Props) {
   return (
     <>
-      <article className="text-indigo-600 border-yellow-400 box-border text-center border-2 p-2 mb-4 w-24 flex flex-col items-center justify-center">
+      <article className="text-indigo-600 box-border text-center p-4 m-4 mb-4 w-24 flex flex-col items-center justify-center">
         <strong>{foto}</strong>
-        <h1 className="block text-xs font-light mt-1 text-indigo-600">
+        <h1 className="block text-lg font-light mt-1 text-Gray-800">
           {texto}
         </h1>
       </article>

@@ -15,8 +15,8 @@ function Certificacion({
 }: Props) {
   return (
     <>
-      <article className="font-bold px-8 border-yellow-400 box-border border-2 w-fit">
-        <h1 className="text-2xl mb-6 text-indigo-600 text-shadow-pink-200 text-shadow-md">
+      <article className="font-bold px-8 border-stone-400 box-border border-2 w-fit">
+        <h1 className="text-2xl mb-6 text-indigo-600 text-shadow-pink-200 text-shadow-xs">
           {titulo}
         </h1>
         <strong className="text-xl mb-6 text-indigo-600">

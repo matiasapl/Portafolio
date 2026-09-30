@@ -3,7 +3,7 @@
 /* En v4, los estilos globales se aplican directamente o mediante @layer base */
 @layer base {
   body {
-    background-color: #020617; /* bg-slate-950 */
+    background-color: #000000; /* bg-slate-950 */
     min-height: 100vh;
     margin: 0;
     overflow-x: hidden;

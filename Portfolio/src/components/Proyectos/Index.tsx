@@ -17,7 +17,7 @@ function Index({ id }: Props) {
             descripcion={
               <>
                 Aplicación web desarrollada con
-                <strong>Laravel, React, MySQL y Docker</strong>
+                <strong> Laravel, React, MySQL y Docker </strong>
                 para administrar inventarios de forma eficiente.
                 <br />
                 <br />
