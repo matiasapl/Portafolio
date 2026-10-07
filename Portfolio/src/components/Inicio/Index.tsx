@@ -23,7 +23,7 @@ function Index({ id }: Props) {
           <span className="text-4xl font-light mt-4 text-indigo-600 text-shadow-pink-200">
             Matias APL
           </span>
-          <p className="text-2xl mb-6 text-indigo-600 text-shadow-pink-200">
+          <div className="text-2xl mb-6 text-indigo-600 text-shadow-pink-200">
             Desarrollador Web Full Stack con enfoque en Backend <br /> Laravel · React · PHP · MySQL · Docker · TailwindCSS · Git · GitHub <br /> <br />
 
             <p className="text-justify">
@@ -46,7 +46,7 @@ function Index({ id }: Props) {
             Si quieres conocer mi trabajo, puedes revisar mis proyectos en este portafolio, <br />
             explorar mi GitHub o ponerte en contacto conmigo. <br />
             </p>
-          </p>
+          </div>
         </div>
       </article>
     </section>

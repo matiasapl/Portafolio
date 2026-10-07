@@ -27,7 +27,7 @@ export default function Contenido() {
         <Inicio id="Inicio" />
       </div>
 
-      <div className="lex flex-col justify-center mb-80 scroll-mt-10">
+      <div className="flex flex-col justify-center mb-80 scroll-mt-10">
         <Proyectos id="Proyectos" />
       </div>
 
