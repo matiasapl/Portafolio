@@ -16,7 +16,7 @@ function BtnUrlBlank({ children, url, icono }: Props) {
       }}
     >
       <span>{icono}</span>
-      <strong className="text-indigo-600 text-shadow-amber-200 text-shadow-2xs">
+      <strong className="text-indigo-600">
         {children}
       </strong>
     </button>

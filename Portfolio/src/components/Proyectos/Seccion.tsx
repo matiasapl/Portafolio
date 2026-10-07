@@ -6,7 +6,7 @@ type Props = {
 function Seccion({ children, texto }: Props) {
   return (
     <>
-      <h1 className="font-light text-6xl text-center mb-6 scroll-mt-16 p-2 text-indigo-600 text-shadow-pink-200 text-shadow-md">
+      <h1 className="font-light text-6xl text-center mb-6 scroll-mt-16 p-2 text-indigo-600 text-shadow-pink-200">
         {texto}
       </h1>
       <section

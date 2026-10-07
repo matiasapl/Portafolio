@@ -35,7 +35,7 @@ function BtnUrlBlank({ children, url }: Props) {
         }
       `}
     >
-      <strong className="text-indigo-600 text-shadow-amber-200 text-shadow-2xs">
+      <strong className="text-indigo-600  text-shadow-2xs">
         {children}
       </strong>
     </button>

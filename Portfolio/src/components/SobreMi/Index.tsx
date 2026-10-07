@@ -12,7 +12,7 @@ function Index({ id }: Props) {
       <div className="p-1 scroll-mt-16 my-10" id={id}>
         <Seccion texto={"Sobre Mi"}>
           {
-            <div className="font-light px-8 text-indigo-600 text-shadow-pink-200">
+            <div className="font-light px-8 text-indigo-600">
             <br/> <strong className="text-lg">Echale un vistazo a mi GitHub para ver mis proyectos y contribuciones. </strong>
             <BtnUrlBlank
               url="https://github.com/matiasapl"

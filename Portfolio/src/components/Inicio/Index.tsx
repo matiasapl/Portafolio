@@ -6,7 +6,7 @@ function Index({ id }: Props) {
   return (
     <section className="my-16">
       <h1
-        className="text-6xl font-light text-center mb-6 scroll-mt-16 text-indigo-600 text-shadow-pink-200 text-shadow-lg"
+        className="text-6xl font-light text-center mb-6 scroll-mt-16 text-indigo-600 text-shadow-pink-200"
         id={id}
       >
         Inicio
@@ -20,10 +20,10 @@ function Index({ id }: Props) {
           />
         </div>
         <div className="flex flex-col items-center text-center p-8">
-          <span className="text-4xl font-light mt-4 text-indigo-600 text-shadow-pink-200 text-shadow-xs">
+          <span className="text-4xl font-light mt-4 text-indigo-600 text-shadow-pink-200">
             Matias APL
           </span>
-          <p className="text-2xl mb-6 text-indigo-600 text-shadow-pink-200 text-shadow-xs">
+          <p className="text-2xl mb-6 text-indigo-600 text-shadow-pink-200">
             Desarrollador Web Full Stack con enfoque en Backend <br /> Laravel · React · PHP · MySQL · Docker · TailwindCSS · Git · GitHub <br /> <br />
 
             <p className="text-justify">
