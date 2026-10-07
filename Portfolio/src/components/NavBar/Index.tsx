@@ -1,7 +1,6 @@
 import BtnScroll from "./BtnScroll";
-type Props = {};
 
-function Index({}: Props) {
+function Index() {
   return (
     <>
       <nav className="sticky top-0 flex justify-end items-end">
