@@ -23,15 +23,15 @@ function Proyecto({
   RepositorioText,
 }: Props) {
   return (
-    <article className="flex flex-col text-white font-bold gap-4 p-4 border-stone-400 border-2 w-[calc(50%-1rem)] min-h-[300px]">
+    <article className="project-card">
       <div>
-        <h1 className="text-indigo-600">{titulo}</h1>
-        <div className="text-indigo-600">{descripcion}</div>
+        <h3 className="project-title">{titulo}</h3>
+        <div className="project-description">{descripcion}</div>
       </div>
 
       {/* Renderizado condicional: solo muestra el div si hay al menos un link */}
       {(VideoLink || WebLink || RepositorioLink) && (
-        <div className="flex justify-end gap-2 mt-auto">
+        <div className="project-actions">
           {VideoLink && (
             <BtnUrlBlank url={VideoLink}>{VideoText || "Video"}</BtnUrlBlank>
           )}

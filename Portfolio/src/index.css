@@ -1,44 +1,486 @@
 @import "tailwindcss";
 
-/* En v4, los estilos globales se aplican directamente o mediante @layer base */
-@layer base {
-  body {
-    background-color: #000000; /* bg-slate-950 */
-    min-height: 100vh;
-    margin: 0;
-    overflow-x: hidden;
-    position: relative;
+:root {
+  color-scheme: dark;
+  font-family: "Segoe UI", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  --graphite: #171c1a;
+  --graphite-raised: #222927;
+  --chalk: #f0f0e8;
+  --ash: #a6b0a8;
+  --signal: #ffd166;
+  --blueprint: #91d7e3;
+  --rule: rgba(216, 226, 216, 0.2);
+  --quiet-rule: rgba(216, 226, 216, 0.1);
+}
 
-    /* Gradientes combinados */
-    background-image: 
-      /* 1. La linterna (Debe ir primero para estar "encima") */
-      radial-gradient(
-        100px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
-        rgba(168, 85, 247, 0.25),
-        transparent 80%
-      ),
-      /* 2. Patrón de ladrillos */
-        linear-gradient(to right, rgba(236, 72, 153, 0.1) 1px, transparent 1px),
-      linear-gradient(to bottom, rgba(168, 85, 247, 0.1) 1px, transparent 1px);
+* {
+  box-sizing: border-box;
+}
 
-    background-size:
-      100% 100%,
-      40px 30px,
-      40px 30px;
-    background-attachment: fixed;
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4.25rem;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  color: var(--chalk);
+  background: var(--graphite);
+}
+
+button,
+a {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--signal);
+  outline-offset: 4px;
+}
+
+.site-shell {
+  width: min(1160px, calc(100% - 3rem));
+  margin-inline: auto;
+}
+
+.site-nav {
+  position: sticky;
+  z-index: 20;
+  top: 0;
+  border-bottom: 1px solid var(--rule);
+  background: var(--graphite);
+}
+
+.site-nav-inner {
+  display: flex;
+  justify-content: flex-end;
+  gap: clamp(0.75rem, 2.5vw, 2rem);
+  width: min(1160px, calc(100% - 3rem));
+  margin-inline: auto;
+  padding-block: 0.5rem;
+}
+
+.nav-link {
+  padding: 0.9rem 0.1rem 0.75rem;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  color: var(--ash);
+  background: transparent;
+  cursor: pointer;
+  font-family: Bahnschrift, "Segoe UI", sans-serif;
+  font-size: 0.95rem;
+  transition: color 150ms ease, border-color 150ms ease;
+}
+
+.nav-link:hover {
+  border-bottom-color: var(--signal);
+  color: var(--chalk);
+}
+
+.content-shell {
+  padding-bottom: 4rem;
+}
+
+.page-section {
+  padding-block: clamp(3rem, 6vw, 5.25rem);
+  border-top: 1px solid var(--quiet-rule);
+  scroll-margin-top: 1.5rem;
+}
+
+.site-shell > .page-section:first-child {
+  border-top: 0;
+  padding-top: clamp(3.5rem, 7vw, 6rem);
+}
+
+.section-heading {
+  margin: 0 0 clamp(1.5rem, 3vw, 2.5rem);
+  padding-left: 0.9rem;
+  border-left: 4px solid var(--signal);
+  color: var(--chalk);
+  font-family: Bahnschrift, "Segoe UI", sans-serif;
+  font-size: clamp(2rem, 4.8vw, 3.5rem);
+  font-weight: 600;
+  letter-spacing: -0.035em;
+  line-height: 1.05;
+  text-align: left;
+  text-wrap: balance;
+}
+
+.section-panel {
+  width: 100%;
+}
+
+.home-hero {
+  display: grid;
+  grid-template-columns: minmax(230px, 0.78fr) minmax(0, 1.5fr);
+  align-items: start;
+  gap: clamp(2rem, 7vw, 6rem);
+  max-width: 1050px;
+  margin-inline: auto;
+  padding-block: clamp(0.5rem, 2vw, 1.5rem);
+}
+
+.home-photo-wrap {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.home-photo-wrap::after {
+  position: absolute;
+  right: 0;
+  bottom: -0.75rem;
+  left: 1.1rem;
+  height: 3px;
+  content: "";
+  background: var(--signal);
+}
+
+.home-photo {
+  width: min(100%, 310px);
+  aspect-ratio: 4 / 5;
+  border: 1px solid var(--rule);
+  border-left: 5px solid var(--signal);
+  object-fit: cover;
+  object-position: center 18%;
+}
+
+.home-copy {
+  min-width: 0;
+  max-width: 690px;
+  color: var(--ash);
+  font-size: 1.025rem;
+  line-height: 1.75;
+}
+
+.home-name {
+  display: block;
+  margin: -0.12em 0 0.5rem;
+  color: var(--chalk);
+  font-family: Bahnschrift, "Segoe UI", sans-serif;
+  font-size: clamp(2.8rem, 6vw, 5rem);
+  font-weight: 650;
+  letter-spacing: -0.055em;
+  line-height: 0.98;
+}
+
+.home-role {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: var(--signal);
+  font-family: Bahnschrift, "Segoe UI", sans-serif;
+  font-size: clamp(1.08rem, 2vw, 1.35rem);
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.home-tech-stack {
+  display: block;
+  margin-bottom: 1.7rem;
+  color: var(--blueprint);
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.home-bio {
+  margin: 0;
+  text-align: left;
+}
+
+.home-bio p {
+  max-width: 72ch;
+  margin: 0 0 1.15rem;
+}
+
+.home-bio p:last-child {
+  margin-bottom: 0;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: clamp(1.5rem, 4vw, 3.5rem);
+}
+
+.project-card {
+  min-width: 0;
+  padding: 1.5rem 0 1.75rem;
+  border-top: 1px solid var(--rule);
+}
+
+.project-card:first-child {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: minmax(0, 1.45fr) minmax(220px, 0.55fr);
+  align-items: start;
+  gap: clamp(1.5rem, 5vw, 5rem);
+  padding-block: 2rem;
+  border-top: 2px solid var(--signal);
+}
+
+.project-title {
+  max-width: 28ch;
+  margin: 0 0 1rem;
+  color: var(--chalk);
+  font-family: Bahnschrift, "Segoe UI", sans-serif;
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.project-description {
+  color: var(--ash);
+  font-size: 0.98rem;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.project-description strong {
+  padding-inline: 0.15em;
+  color: var(--chalk);
+  font-weight: 600;
+}
+
+.project-description ul {
+  margin-block: 1rem;
+  padding-left: 1.2rem;
+}
+
+.project-description li::marker {
+  color: var(--signal);
+}
+
+.project-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: start;
+  gap: 1rem;
+  margin-top: 0.25rem;
+}
+
+.action-link,
+.contact-link {
+  display: inline-flex;
+  min-height: 2.5rem;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.5rem 0;
+  border: 0;
+  border-bottom: 1px solid var(--signal);
+  border-radius: 0;
+  color: var(--signal);
+  background: transparent;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 150ms ease, border-color 150ms ease;
+}
+
+.action-link:hover,
+.contact-link:hover {
+  border-bottom-color: var(--blueprint);
+  color: var(--blueprint);
+}
+
+.action-link:disabled {
+  border-bottom-color: var(--rule);
+  color: var(--ash);
+  cursor: not-allowed;
+}
+
+.study-card {
+  width: min(100%, 820px);
+  margin-left: clamp(0rem, 8vw, 7rem);
+  padding: 0.5rem 0 0.5rem 1.5rem;
+  border-left: 3px solid var(--blueprint);
+}
+
+.study-title {
+  margin: 0 0 0.85rem;
+  color: var(--signal);
+  font-family: Bahnschrift, "Segoe UI", sans-serif;
+  font-size: 1.65rem;
+  font-weight: 600;
+}
+
+.study-detail {
+  margin: 0.55rem 0;
+  color: var(--ash);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.study-card strong.study-detail {
+  display: block;
+  color: var(--chalk);
+  font-weight: 600;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: clamp(1.25rem, 3.5vw, 3rem);
+}
+
+.skill-group {
+  min-width: 0;
+  padding: 1.3rem 0 1.5rem;
+  border-top: 1px solid var(--rule);
+}
+
+.skill-group-title {
+  margin: 0 0 0.8rem;
+  color: var(--signal);
+  font-family: Bahnschrift, "Segoe UI", sans-serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.technology-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1rem;
+}
+
+.technology-item {
+  display: inline-flex;
+  min-height: 2rem;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.2rem 0;
+  color: var(--blueprint);
+}
+
+.technology-icon {
+  display: inline-flex;
+  font-size: 1rem;
+}
+
+.technology-name {
+  color: var(--chalk);
+  font-size: 0.9rem;
+}
+
+.contact-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 900px;
+  margin-left: clamp(0rem, 8vw, 7rem);
+}
+
+.contact-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 1rem 2rem;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.contact-copy {
+  max-width: 62ch;
+  color: var(--ash);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+@media (max-width: 800px) {
+  .site-nav-inner {
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
-  /* Brillo ambiental fijo */
-  body::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    background: radial-gradient(
-      circle at 50% 50%,
-      rgba(168, 85, 247, 0.05),
-      transparent 70%
-    );
-    pointer-events: none;
-    z-index: -1;
+  .home-hero {
+    grid-template-columns: minmax(180px, 0.7fr) minmax(0, 1.3fr);
+    gap: 2rem;
+  }
+
+  .home-photo {
+    width: min(100%, 260px);
+  }
+
+  .project-card:first-child {
+    grid-template-columns: minmax(0, 1.2fr) minmax(170px, 0.8fr);
+    gap: 1.5rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .study-card,
+  .contact-list {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .site-shell,
+  .site-nav-inner {
+    width: min(100% - 1.5rem, 1160px);
+  }
+
+  html {
+    scroll-padding-top: 8.25rem;
+  }
+
+  .page-section {
+    padding-block: 3.5rem;
+    scroll-margin-top: 0;
+  }
+
+  .home-hero {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .home-photo-wrap {
+    width: min(72%, 270px);
+  }
+
+  .project-grid,
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card:first-child {
+    display: block;
+  }
+
+  .study-card,
+  .contact-list {
+    margin-left: 0;
+  }
+
+  .contact-row {
+    grid-template-columns: 1fr;
+    gap: 0.65rem;
+  }
+
+  .contact-link,
+  .action-link {
+    width: fit-content;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }

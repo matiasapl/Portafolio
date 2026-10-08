@@ -14,19 +14,13 @@ function Certificacion({
   institucion,
 }: Props) {
   return (
-    <>
-      <article className="font-bold px-8 border-stone-400 box-border border-2 w-fit">
-        <h1 className="text-2xl mb-6 text-indigo-600 text-shadow-pink-200">
-          {titulo}
-        </h1>
-        <strong className="text-xl mb-6 text-indigo-600">
-          {certificacion}
-        </strong>
-        <p className="text-xl mb-6 text-indigo-600">{institucion}</p>
-        <p className="text-xl mb-6 text-indigo-600">{fechaInicio}</p>
-        <p className="text-xl mb-6 text-indigo-600">{fechaFin}</p>
-      </article>
-    </>
+    <article className="study-card">
+      <h3 className="study-title">{titulo}</h3>
+      <strong className="study-detail">{certificacion}</strong>
+      <p className="study-detail">{institucion}</p>
+      <p className="study-detail">{fechaInicio}</p>
+      <p className="study-detail">{fechaFin}</p>
+    </article>
   );
 }
 

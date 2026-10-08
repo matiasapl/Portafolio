@@ -72,5 +72,5 @@
 56. Los cambios deben reutilizar primero las herramientas, dependencias y patrones ya presentes antes de introducir alternativas nuevas.
 57. Actualmente no hay pruebas automatizadas configuradas.
 58. Las validaciones principales disponibles son `npm run lint` y `npm run build`.
-59. Las instrucciones operativas para agentes pertenecen a `AGENTS.md`; este archivo debe conservar contexto del proyecto.
+59. Las instrucciones operativas para agentes pertenecen a `AGENTS.md`; `opencode.json` configura actualmente Playwright MCP para Brave visible y aislado, y `.agents/skills/frontend-design/` contiene la skill de diseño frontend del proyecto.
 60. Esta memoria debe mantenerse compacta y actualizarse sustituyendo información obsoleta en vez de crecer indefinidamente.

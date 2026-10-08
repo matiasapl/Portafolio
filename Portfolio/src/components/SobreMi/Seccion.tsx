@@ -6,12 +6,10 @@ type Props = {
 function Seccion({ children, texto }: Props) {
   return (
     <>
-      <h1 className="text-indigo-600 text-6xl font-light text-center mb-6 scroll-mt-16 p-2">
+      <h2 className="section-heading">
         {texto}
-      </h1>
-      <section>
-        <p className="">{children}</p>
-      </section>
+      </h2>
+      <section className="section-panel">{children}</section>
     </>
   );
 }

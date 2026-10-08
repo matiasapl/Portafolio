@@ -7,7 +7,7 @@ type Props = {
 function Index({ id }: Props) {
   return (
     <>
-      <div className="p-1 scroll-mt-16 my-10" id={id}>
+      <div className="page-section" id={id}>
         <Seccion texto="Estudios">
           <Estudios
             titulo="Tecnico Profecional"

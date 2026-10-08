@@ -6,14 +6,11 @@ type Props = {
 function Seccion({ children, texto }: Props) {
   return (
     <>
-      <h1 className="text-indigo-600 text-2xl font-light text-center mb-6 scroll-mt-16 p-2">
+      <h3 className="skill-group-title">
         {texto}
-      </h1>
-      <section
-        className="text-transparent border-stone-400 bg-clip-text bg-linear-to-t from-violet-500 to-fuchsia-500 font-bold flex flex-row flex-wrap justify-center gap-4 px-8 border-2 "
-        id="Estudios"
-      >
-        {children}
+      </h3>
+      <section className="skill-group">
+        <div className="technology-list">{children}</div>
       </section>
     </>
   );
