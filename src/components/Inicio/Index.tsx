@@ -14,7 +14,7 @@ function Index({ id }: Props) {
       <article className="home-hero">
         <div className="home-photo-wrap">
           <img
-            src="/mi-foto.png"
+            src={`${import.meta.env.BASE_URL}mi-foto.png`}
             alt="Foto de Matias Alexander Polhwein Lara"
             className="home-photo"
           />
