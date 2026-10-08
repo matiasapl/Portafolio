@@ -1,0 +1,17 @@
+{
+  "browser": {
+    "browserName": "chromium",
+    "isolated": true,
+    "contextOptions": {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      }
+    }
+  },
+  "capabilities": ["devtools"],
+  "outputDir": ".playwright-mcp",
+  "server": {
+    "allowedHosts": ["localhost", "127.0.0.1"]
+  }
+}
