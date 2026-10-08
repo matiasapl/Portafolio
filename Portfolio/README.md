@@ -1,69 +1,68 @@
-# React + TypeScript + Vite
+# Portafolio de Matías APL
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portafolio personal de **Matías Alexander Polhwein Lara**, desarrollador web Full Stack con enfoque en Backend. Presenta proyectos, experiencia, estudios y habilidades, con énfasis en aplicaciones web para procesos industriales.
 
-Currently, two official plugins are available:
+🌐 **Sitio publicado:** [mapl.dev](https://mapl.dev)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Vista previa
 
-## Expanding the ESLint configuration
+| Escritorio | Móvil |
+| --- | --- |
+| <img src="docs/images/portfolio-desktop.png" alt="Portafolio en escritorio" width="100%"> | <img src="docs/images/portfolio-mobile.png" alt="Portafolio en móvil" width="100%"> |
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Secciones
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **Inicio:** perfil profesional y presentación.
+- **Proyectos:** proyectos web y herramientas para gestión y producción.
+- **Estudios:** formación académica.
+- **Habilidades:** tecnologías y herramientas agrupadas por categoría.
+- **Sobre mí:** enlaces de contacto y Curriculum Vitae.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## Tecnologías
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- React 19 y TypeScript
+- Vite con `@vitejs/plugin-react-swc`
+- Tailwind CSS 4 y Bootstrap 5
+- React Icons
+
+## Desarrollo local
+
+Requisitos: Node.js `^20.19.0` o `>=22.12.0` y npm.
+
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Vite mostrará en la terminal la dirección local para abrir el sitio.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Comandos disponibles
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+| Comando | Descripción |
+| --- | --- |
+| `npm run dev` | Inicia el servidor de desarrollo. |
+| `npm run lint` | Ejecuta ESLint. |
+| `npm run build` | Comprueba TypeScript y genera la versión de producción en `dist/`. |
+| `npm run preview` | Sirve localmente la versión generada. |
+
+## Estructura principal
+
+```text
+src/
+├── Pages/Contenido.tsx       # composición de las secciones
+├── components/               # navegación y secciones del portafolio
+├── App.tsx
+└── index.css                 # estilos globales
+public/                       # imágenes y recursos estáticos
+docs/images/                  # capturas de vista previa para este README
 ```
+
+## OpenCode y Playwright MCP (opcional)
+
+El repositorio incluye una configuración de OpenCode para pruebas visuales con Chromium administrado por Playwright. Si vas a usar este MCP, instala el navegador una vez:
+
+```bash
+npx -y @playwright/mcp@0.0.83 install-browser chromium
+```
+
+La configuración localiza el servidor como `playwright` al iniciar OpenCode en este repositorio.
