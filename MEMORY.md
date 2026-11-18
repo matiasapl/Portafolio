@@ -37,13 +37,13 @@
 27. `Inicio/Index.tsx` presenta el nombre, perfil profesional y biografía.
 28. La biografía actual describe experiencia en aplicaciones internas para procesos industriales.
 29. El perfil actual menciona Laravel, React, PHP, MySQL, Docker, Tailwind CSS, Git y GitHub.
-30. `Proyectos/Index.tsx` define actualmente tres tarjetas de proyectos; este número describe el estado actual y no una restricción permanente.
-31. El primer proyecto mostrado es una plataforma personal de gestión de inventarios.
+30. `Proyectos/Index.tsx` muestra Vozentra primero y los tres proyectos anteriores; la cantidad y el orden describen el estado actual, no una restricción permanente.
+31. Vozentra se presenta como beta gratuita de escritorio para Windows, con código privado; sus enlaces llevan a la web y al repositorio público de descargas, nunca al código privado.
 32. La plataforma de inventarios menciona Laravel, React, MySQL y Docker.
 33. La tarjeta de inventarios incluye un enlace a una demo web.
-34. El segundo proyecto mostrado es un dashboard de KPI de Embalajes Troya.
+34. La sección conserva también el dashboard de KPI de Embalajes Troya.
 35. El dashboard describe métricas de producción y filtros de información.
-36. El tercer proyecto mostrado es un formulario móvil para registrar producción de armado.
+36. La sección conserva también el formulario móvil para registrar producción de armado.
 37. El formulario móvil menciona React Native, Expo y Microsoft Active Directory.
 38. `Proyectos/ModalProyecto.tsx` recibe la descripción como `ReactNode`.
 39. Los enlaces de video, web y repositorio de un proyecto son opcionales.

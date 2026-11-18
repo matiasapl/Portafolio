@@ -13,7 +13,7 @@ Portafolio personal de **Matías Alexander Polhwein Lara**, desarrollador web Fu
 ## Secciones
 
 - **Inicio:** perfil profesional y presentación.
-- **Proyectos:** proyectos web y herramientas para gestión y producción.
+- **Proyectos:** Vozentra, intérprete de voz local para Windows en beta gratuita, junto con proyectos web y herramientas para gestión y producción.
 - **Estudios:** formación académica.
 - **Habilidades:** tecnologías y herramientas agrupadas por categoría.
 - **Sobre mí:** enlaces de contacto y Curriculum Vitae.

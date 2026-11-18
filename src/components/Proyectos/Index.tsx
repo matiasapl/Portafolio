@@ -10,6 +10,39 @@ function Index({ id }: Props) {
       <div className="page-section" id={id}>
         <Seccion texto="Proyectos">
           <Proyecto
+            titulo="Vozentra · Intérprete de voz local"
+            descripcion={
+              <>
+                Aplicación de escritorio para Windows desarrollada con
+                <strong> Python, C#, HTML, CSS y JavaScript </strong>
+                para mantener conversaciones entre personas que hablan español
+                e inglés. Procesa el reconocimiento, la traducción y la síntesis
+                de voz en el PC, con modelos locales como Whisper y OPUS-MT,
+                utilizando CTranslate2.
+                <br />
+                <br />
+                Actualmente incorpora:
+                <ul>
+                  <li>✔ Escucha y habla con traducción en ambos sentidos</li>
+                  <li>✔ Procesamiento independiente y colas por dirección</li>
+                  <li>✔ Jerga personalizable y atajos de teclado</li>
+                  <li>✔ Integración mediante audio virtual con Discord</li>
+                  <li>✔ Instalador MSI, manual bilingüe y temas claro/oscuro</li>
+                  <li>✔ Catálogo firmado para futuras actualizaciones</li>
+                </ul>
+                Proyecto personal disponible como beta gratuita. El código es
+                privado; el repositorio público contiene las descargas y las
+                notas de versión. La precisión y la latencia dependen del equipo
+                y de la conversación.
+              </>
+            }
+            WebText="Conocer Vozentra"
+            WebLink="https://eve-voice.pages.dev/"
+            RepositorioText="Descargas y versiones"
+            RepositorioLink="https://github.com/matiasapl/vozentra-downloads"
+          />
+
+          <Proyecto
             titulo="Plataforma de Gestión de Inventarios"
             descripcion={
               <>
